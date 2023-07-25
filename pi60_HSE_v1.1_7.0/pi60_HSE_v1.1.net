@@ -1,0 +1,5284 @@
+(export 
+  (version D) 
+  (design 
+    (source "C:\\Users\\mwcor\\Google Drive\\KiCad 02\\Projects\\1up Work\\60 HSE RGB 01\\HSE.sch") 
+    (date "1/4/2022 9:56:19 PM") 
+    (tool "Eeschema (5.1.6)-1") 
+    (sheet 
+      (number 1) 
+      (name /) 
+      (tstamps /) 
+      (title_block 
+        (title) 
+        (company) 
+        (rev) 
+        (date) 
+        (source pi60_HSE_v1.1.sch) 
+        (comment 
+          (number 1) 
+          (value "")) 
+        (comment 
+          (number 2) 
+          (value "")) 
+        (comment 
+          (number 3) 
+          (value "")) 
+        (comment 
+          (number 4) 
+          (value ""))))) 
+  (components 
+    (comp 
+      (ref U1) 
+      (value ATmega32U4-AU) 
+      (footprint keyboard_parts:QFP44) 
+      (datasheet http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf) 
+      (libsource 
+        (lib MCU_Microchip_ATmega) 
+        (part ATmega32U4-MU) 
+        (description "16MHz, 32kB Flash, 2.5kB SRAM, 1kB EEPROM, USB 2.0, QFN-44")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 611FF92A)) 
+    (comp 
+      (ref C1) 
+      (value 1u) 
+      (footprint Capacitor_SMD:C_0805_2012Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part C) 
+        (description "Unpolarized capacitor")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61210B76)) 
+    (comp 
+      (ref USB1) 
+      (value HRO-TYPE-C-31-M-12) 
+      (footprint Type-C:HRO-TYPE-C-31-M-12-Assembly) 
+      (libsource 
+        (lib keebio) 
+        (part HRO-TYPE-C-31-M-12) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 612112C7)) 
+    (comp 
+      (ref U2) 
+      (value PRTR5V0U2X) 
+      (footprint "Keebio-Parts 02:SOT-143B") 
+      (libsource 
+        (lib keebio) 
+        (part PRTR5V0U2X) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6121380C)) 
+    (comp 
+      (ref F1) 
+      (value Polyfuse_Small) 
+      (footprint Fuse:Fuse_1206_3216Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part Polyfuse_Small) 
+        (description "Resettable fuse, polymeric positive temperature coefficient, small symbol")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61216E6D)) 
+    (comp 
+      (ref SW1) 
+      (value SW_Push) 
+      (footprint "Keebio-Parts 02:SW_SPST_TL3342") 
+      (datasheet ~) 
+      (libsource 
+        (lib Switch) 
+        (part SW_Push) 
+        (description "Push button switch, generic, two pins")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6121F5CC)) 
+    (comp 
+      (ref R1) 
+      (value 22) 
+      (footprint Resistor_SMD:R_0805_2012Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R) 
+        (description Resistor)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 612209B2)) 
+    (comp 
+      (ref R2) 
+      (value 22) 
+      (footprint Resistor_SMD:R_0805_2012Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R) 
+        (description Resistor)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61222F8A)) 
+    (comp 
+      (ref R3) 
+      (value 10k) 
+      (footprint Resistor_SMD:R_0805_2012Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R) 
+        (description Resistor)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61223221)) 
+    (comp 
+      (ref R6) 
+      (value 10k) 
+      (footprint Resistor_SMD:R_0805_2012Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R) 
+        (description Resistor)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 612234BD)) 
+    (comp 
+      (ref R5) 
+      (value 5.1k) 
+      (footprint Resistor_SMD:R_0805_2012Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R) 
+        (description Resistor)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 612237F6)) 
+    (comp 
+      (ref R4) 
+      (value 5.1k) 
+      (footprint Resistor_SMD:R_0805_2012Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R) 
+        (description Resistor)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61223A8D)) 
+    (comp 
+      (ref C2) 
+      (value 10uF) 
+      (footprint Capacitor_Tantalum_SMD:CP_EIA-3216-12_Kemet-S) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part CP) 
+        (description "Polarized capacitor")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61228E4D)) 
+    (comp 
+      (ref K1) 
+      (value Esc) 
+      (footprint MX_Only:MXOnly-1U-Hotswap) 
+      (libsource 
+        (lib HSE-rescue) 
+        (part KEYSW-keyboard_parts) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6121B8C0)) 
+    (comp 
+      (ref K7) 
+      (value 1) 
+      (footprint MX_Only:MXOnly-1U-Hotswap) 
+      (libsource 
+        (lib HSE-rescue) 
+        (part KEYSW-keyboard_parts) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6121C407)) 
+    (comp 
+      (ref K13) 
+      (value 2) 
+      (footprint MX_Only:MXOnly-1U-Hotswap) 
+      (libsource 
+        (lib HSE-rescue) 
+        (part KEYSW-keyboard_parts) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6121D2FB)) 
+    (comp 
+      (ref K18) 
+      (value 3) 
+      (footprint MX_Only:MXOnly-1U-Hotswap) 
+      (libsource 
+        (lib HSE-rescue) 
+        (part KEYSW-keyboard_parts) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6121D8E0)) 
+    (comp 
+      (ref K23) 
+      (value 4) 
+      (footprint MX_Only:MXOnly-1U-Hotswap) 
+      (libsource 
+        (lib HSE-rescue) 
+        (part KEYSW-keyboard_parts) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6121DF2F)) 
+    (comp 
+      (ref K27) 
+      (value 5) 
+      (footprint MX_Only:MXOnly-1U-Hotswap) 
+      (libsource 
+        (lib HSE-rescue) 
+        (part KEYSW-keyboard_parts) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6121E5C5)) 
+    (comp 
+      (ref K31) 
+      (value 6) 
+      (footprint MX_Only:MXOnly-1U-Hotswap) 
+      (libsource 
+        (lib HSE-rescue) 
+        (part KEYSW-keyboard_parts) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6121EA45)) 
+    (comp 
+      (ref K36) 
+      (value 7) 
+      (footprint MX_Only:MXOnly-1U-Hotswap) 
+      (libsource 
+        (lib HSE-rescue) 
+        (part KEYSW-keyboard_parts) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6121EE58)) 
+    (comp 
+      (ref K41) 
+      (value 8) 
+      (footprint MX_Only:MXOnly-1U-Hotswap) 
+      (libsource 
+        (lib HSE-rescue) 
+        (part KEYSW-keyboard_parts) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6121F1D6)) 
+    (comp 
+      (ref K45) 
+      (value 9) 
+      (footprint MX_Only:MXOnly-1U-Hotswap) 
+      (libsource 
+        (lib HSE-rescue) 
+        (part KEYSW-keyboard_parts) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6121F7B2)) 
+    (comp 
+      (ref K49) 
+      (value 0) 
+      (footprint MX_Only:MXOnly-1U-Hotswap) 
+      (libsource 
+        (lib HSE-rescue) 
+        (part KEYSW-keyboard_parts) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6121FC72)) 
+    (comp 
+      (ref K54) 
+      (value -) 
+      (footprint MX_Only:MXOnly-1U-Hotswap) 
+      (libsource 
+        (lib HSE-rescue) 
+        (part KEYSW-keyboard_parts) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6122D237)) 
+    (comp 
+      (ref K59) 
+      (value =) 
+      (footprint MX_Only:MXOnly-1U-Hotswap) 
+      (libsource 
+        (lib HSE-rescue) 
+        (part KEYSW-keyboard_parts) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6122D9E4)) 
+    (comp 
+      (ref K69) 
+      (value "Backspace 2u") 
+      (footprint MX_Only:MXOnly-2U-Hotswap) 
+      (libsource 
+        (lib HSE-rescue) 
+        (part KEYSW-keyboard_parts) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6123BABE)) 
+    (comp 
+      (ref K4) 
+      (value "Tab 1.5u") 
+      (footprint MX_Only:MXOnly-1.5U-Hotswap) 
+      (libsource 
+        (lib HSE-rescue) 
+        (part KEYSW-keyboard_parts) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6123D721)) 
+    (comp 
+      (ref K9) 
+      (value Q) 
+      (footprint MX_Only:MXOnly-1U-Hotswap) 
+      (libsource 
+        (lib HSE-rescue) 
+        (part KEYSW-keyboard_parts) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6123E77F)) 
+    (comp 
+      (ref K14) 
+      (value W) 
+      (footprint MX_Only:MXOnly-1U-Hotswap) 
+      (libsource 
+        (lib HSE-rescue) 
+        (part KEYSW-keyboard_parts) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6123EEBA)) 
+    (comp 
+      (ref K20) 
+      (value E) 
+      (footprint MX_Only:MXOnly-1U-Hotswap) 
+      (libsource 
+        (lib HSE-rescue) 
+        (part KEYSW-keyboard_parts) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6123F436)) 
+    (comp 
+      (ref K24) 
+      (value R) 
+      (footprint MX_Only:MXOnly-1U-Hotswap) 
+      (libsource 
+        (lib HSE-rescue) 
+        (part KEYSW-keyboard_parts) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6123F897)) 
+    (comp 
+      (ref K28) 
+      (value T) 
+      (footprint MX_Only:MXOnly-1U-Hotswap) 
+      (libsource 
+        (lib HSE-rescue) 
+        (part KEYSW-keyboard_parts) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6123FF0A)) 
+    (comp 
+      (ref K33) 
+      (value Y) 
+      (footprint MX_Only:MXOnly-1U-Hotswap) 
+      (libsource 
+        (lib HSE-rescue) 
+        (part KEYSW-keyboard_parts) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6124176F)) 
+    (comp 
+      (ref K51) 
+      (value P) 
+      (footprint MX_Only:MXOnly-1U-Hotswap) 
+      (libsource 
+        (lib HSE-rescue) 
+        (part KEYSW-keyboard_parts) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61243208)) 
+    (comp 
+      (ref K57) 
+      (value [) 
+      (footprint MX_Only:MXOnly-1U-Hotswap) 
+      (libsource 
+        (lib HSE-rescue) 
+        (part KEYSW-keyboard_parts) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6124364D)) 
+    (comp 
+      (ref K62) 
+      (value ]) 
+      (footprint MX_Only:MXOnly-1U-Hotswap) 
+      (libsource 
+        (lib HSE-rescue) 
+        (part KEYSW-keyboard_parts) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61243AD4)) 
+    (comp 
+      (ref K66) 
+      (value "\\ 1.5u") 
+      (footprint MX_Only:MXOnly-1.5U-Hotswap) 
+      (libsource 
+        (lib HSE-rescue) 
+        (part KEYSW-keyboard_parts) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61243F93)) 
+    (comp 
+      (ref K5) 
+      (value "Caps 1.75u") 
+      (footprint MX_Only:MXOnly-1.75U-Hotswap) 
+      (libsource 
+        (lib HSE-rescue) 
+        (part KEYSW-keyboard_parts) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6125C3A2)) 
+    (comp 
+      (ref K10) 
+      (value A) 
+      (footprint MX_Only:MXOnly-1U-Hotswap) 
+      (libsource 
+        (lib HSE-rescue) 
+        (part KEYSW-keyboard_parts) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 612611B5)) 
+    (comp 
+      (ref K15) 
+      (value S) 
+      (footprint MX_Only:MXOnly-1U-Hotswap) 
+      (libsource 
+        (lib HSE-rescue) 
+        (part KEYSW-keyboard_parts) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 612617DB)) 
+    (comp 
+      (ref K21) 
+      (value D) 
+      (footprint MX_Only:MXOnly-1U-Hotswap) 
+      (libsource 
+        (lib HSE-rescue) 
+        (part KEYSW-keyboard_parts) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61261BDD)) 
+    (comp 
+      (ref K25) 
+      (value F) 
+      (footprint MX_Only:MXOnly-1U-Hotswap) 
+      (libsource 
+        (lib HSE-rescue) 
+        (part KEYSW-keyboard_parts) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61262385)) 
+    (comp 
+      (ref K29) 
+      (value G) 
+      (footprint MX_Only:MXOnly-1U-Hotswap) 
+      (libsource 
+        (lib HSE-rescue) 
+        (part KEYSW-keyboard_parts) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61262940)) 
+    (comp 
+      (ref K34) 
+      (value H) 
+      (footprint MX_Only:MXOnly-1U-Hotswap) 
+      (libsource 
+        (lib HSE-rescue) 
+        (part KEYSW-keyboard_parts) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61262D8F)) 
+    (comp 
+      (ref K39) 
+      (value J) 
+      (footprint MX_Only:MXOnly-1U-Hotswap) 
+      (libsource 
+        (lib HSE-rescue) 
+        (part KEYSW-keyboard_parts) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61263243)) 
+    (comp 
+      (ref K43) 
+      (value K) 
+      (footprint MX_Only:MXOnly-1U-Hotswap) 
+      (libsource 
+        (lib HSE-rescue) 
+        (part KEYSW-keyboard_parts) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6126393C)) 
+    (comp 
+      (ref K47) 
+      (value L) 
+      (footprint MX_Only:MXOnly-1U-Hotswap) 
+      (libsource 
+        (lib HSE-rescue) 
+        (part KEYSW-keyboard_parts) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61263FEF)) 
+    (comp 
+      (ref K52) 
+      (value ;) 
+      (footprint MX_Only:MXOnly-1U-Hotswap) 
+      (libsource 
+        (lib HSE-rescue) 
+        (part KEYSW-keyboard_parts) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 612645CD)) 
+    (comp 
+      (ref K58) 
+      (value ') 
+      (footprint MX_Only:MXOnly-1U-Hotswap) 
+      (libsource 
+        (lib HSE-rescue) 
+        (part KEYSW-keyboard_parts) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61264AA3)) 
+    (comp 
+      (ref K65) 
+      (value "Enter 2.25u") 
+      (footprint MX_Only:MXOnly-2.25U-Hotswap-ReversedStabilizers) 
+      (libsource 
+        (lib HSE-rescue) 
+        (part KEYSW-keyboard_parts) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61272DD4)) 
+    (comp 
+      (ref K12) 
+      (value Z) 
+      (footprint MX_Only:MXOnly-1U-Hotswap) 
+      (libsource 
+        (lib HSE-rescue) 
+        (part KEYSW-keyboard_parts) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61239D77)) 
+    (comp 
+      (ref K17) 
+      (value X) 
+      (footprint MX_Only:MXOnly-1U-Hotswap) 
+      (libsource 
+        (lib HSE-rescue) 
+        (part KEYSW-keyboard_parts) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6123A829)) 
+    (comp 
+      (ref K22) 
+      (value C) 
+      (footprint MX_Only:MXOnly-1U-Hotswap) 
+      (libsource 
+        (lib HSE-rescue) 
+        (part KEYSW-keyboard_parts) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6123AB20)) 
+    (comp 
+      (ref K26) 
+      (value V) 
+      (footprint MX_Only:MXOnly-1U-Hotswap) 
+      (libsource 
+        (lib HSE-rescue) 
+        (part KEYSW-keyboard_parts) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6123AF7A)) 
+    (comp 
+      (ref K30) 
+      (value B) 
+      (footprint MX_Only:MXOnly-1U-Hotswap) 
+      (libsource 
+        (lib HSE-rescue) 
+        (part KEYSW-keyboard_parts) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6123B448)) 
+    (comp 
+      (ref K35) 
+      (value N) 
+      (footprint MX_Only:MXOnly-1U-Hotswap) 
+      (libsource 
+        (lib HSE-rescue) 
+        (part KEYSW-keyboard_parts) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6123B927)) 
+    (comp 
+      (ref K40) 
+      (value M) 
+      (footprint MX_Only:MXOnly-1U-Hotswap) 
+      (libsource 
+        (lib HSE-rescue) 
+        (part KEYSW-keyboard_parts) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6123BCEF)) 
+    (comp 
+      (ref K44) 
+      (value ,) 
+      (footprint MX_Only:MXOnly-1U-Hotswap) 
+      (libsource 
+        (lib HSE-rescue) 
+        (part KEYSW-keyboard_parts) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6123C1AC)) 
+    (comp 
+      (ref K48) 
+      (value 0) 
+      (footprint MX_Only:MXOnly-1U-Hotswap) 
+      (libsource 
+        (lib HSE-rescue) 
+        (part KEYSW-keyboard_parts) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6123C741)) 
+    (comp 
+      (ref K53) 
+      (value /) 
+      (footprint MX_Only:MXOnly-1U-Hotswap) 
+      (libsource 
+        (lib HSE-rescue) 
+        (part KEYSW-keyboard_parts) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6123CCA5)) 
+    (comp 
+      (ref K6) 
+      (value "Shift 2.25u") 
+      (footprint MX_Only:MXOnly-2.25U-Hotswap) 
+      (libsource 
+        (lib HSE-rescue) 
+        (part KEYSW-keyboard_parts) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6123EEE2)) 
+    (comp 
+      (ref K2) 
+      (value "LCtrl 1.25u") 
+      (footprint MX_Only:MXOnly-1.25U-Hotswap) 
+      (libsource 
+        (lib HSE-rescue) 
+        (part KEYSW-keyboard_parts) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 612400DE)) 
+    (comp 
+      (ref K50) 
+      (value "RAlt 1.25u") 
+      (footprint MX_Only:MXOnly-1.25U-Hotswap) 
+      (libsource 
+        (lib HSE-rescue) 
+        (part KEYSW-keyboard_parts) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 612435FF)) 
+    (comp 
+      (ref K56) 
+      (value "FN 1.25u") 
+      (footprint MX_Only:MXOnly-1.25U-Hotswap) 
+      (libsource 
+        (lib HSE-rescue) 
+        (part KEYSW-keyboard_parts) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 612439C1)) 
+    (comp 
+      (ref K63) 
+      (value "Meta 1.25u") 
+      (footprint MX_Only:MXOnly-1.25U-Hotswap) 
+      (libsource 
+        (lib HSE-rescue) 
+        (part KEYSW-keyboard_parts) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61243CCF)) 
+    (comp 
+      (ref K68) 
+      (value "RCtrl 1.25u") 
+      (footprint MX_Only:MXOnly-1.25U-Hotswap) 
+      (libsource 
+        (lib HSE-rescue) 
+        (part KEYSW-keyboard_parts) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6124412C)) 
+    (comp 
+      (ref K8) 
+      (value "LWin 1.25u") 
+      (footprint MX_Only:MXOnly-1.25U-Hotswap) 
+      (libsource 
+        (lib HSE-rescue) 
+        (part KEYSW-keyboard_parts) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61244E68)) 
+    (comp 
+      (ref K16) 
+      (value "LAlt 1.25u") 
+      (footprint MX_Only:MXOnly-1.25U-Hotswap) 
+      (libsource 
+        (lib HSE-rescue) 
+        (part KEYSW-keyboard_parts) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61246229)) 
+    (comp 
+      (ref K32) 
+      (value "Space 6.25u") 
+      (footprint MX_Only:MXOnly-6.25U-Hotswap-ReversedStabilizers) 
+      (libsource 
+        (lib HSE-rescue) 
+        (part KEYSW-keyboard_parts) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61246FC2)) 
+    (comp 
+      (ref X1) 
+      (value XTAL_GND) 
+      (footprint kicad-keyboard-parts:crystal_FA238-TSX3225) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part XTAL_GND) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61410E06)) 
+    (comp 
+      (ref C3) 
+      (value 22p) 
+      (footprint Capacitor_SMD:C_0805_2012Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part C) 
+        (description "Unpolarized capacitor")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61414F0A)) 
+    (comp 
+      (ref C4) 
+      (value 22p) 
+      (footprint Capacitor_SMD:C_0805_2012Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part C) 
+        (description "Unpolarized capacitor")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 614154C2)) 
+    (comp 
+      (ref D4) 
+      (value D) 
+      (footprint Diode_SMD:D_SOD-123) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part D) 
+        (description Diode)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 614B1C64)) 
+    (comp 
+      (ref D12) 
+      (value D) 
+      (footprint Diode_SMD:D_SOD-123) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part D) 
+        (description Diode)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 614B1F9B)) 
+    (comp 
+      (ref D16) 
+      (value D) 
+      (footprint Diode_SMD:D_SOD-123) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part D) 
+        (description Diode)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 614B2345)) 
+    (comp 
+      (ref D20) 
+      (value D) 
+      (footprint Diode_SMD:D_SOD-123) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part D) 
+        (description Diode)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 614B2677)) 
+    (comp 
+      (ref D24) 
+      (value D) 
+      (footprint Diode_SMD:D_SOD-123) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part D) 
+        (description Diode)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 614B330F)) 
+    (comp 
+      (ref D28) 
+      (value D) 
+      (footprint Diode_SMD:D_SOD-123) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part D) 
+        (description Diode)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 614B35E2)) 
+    (comp 
+      (ref D33) 
+      (value D) 
+      (footprint Diode_SMD:D_SOD-123) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part D) 
+        (description Diode)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 614B39F0)) 
+    (comp 
+      (ref D37) 
+      (value D) 
+      (footprint Diode_SMD:D_SOD-123) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part D) 
+        (description Diode)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 614B3E30)) 
+    (comp 
+      (ref D41) 
+      (value D) 
+      (footprint Diode_SMD:D_SOD-123) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part D) 
+        (description Diode)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 614B409F)) 
+    (comp 
+      (ref D45) 
+      (value D) 
+      (footprint Diode_SMD:D_SOD-123) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part D) 
+        (description Diode)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 614B4417)) 
+    (comp 
+      (ref D50) 
+      (value D) 
+      (footprint Diode_SMD:D_SOD-123) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part D) 
+        (description Diode)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 614B4758)) 
+    (comp 
+      (ref D54) 
+      (value D) 
+      (footprint Diode_SMD:D_SOD-123) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part D) 
+        (description Diode)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 614B4A7B)) 
+    (comp 
+      (ref D58) 
+      (value D) 
+      (footprint Diode_SMD:D_SOD-123) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part D) 
+        (description Diode)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 614B4E16)) 
+    (comp 
+      (ref D59) 
+      (value D) 
+      (footprint Diode_SMD:D_SOD-123) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part D) 
+        (description Diode)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 614B5337)) 
+    (comp 
+      (ref D55) 
+      (value D) 
+      (footprint Diode_SMD:D_SOD-123) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part D) 
+        (description Diode)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 614B56FA)) 
+    (comp 
+      (ref D52) 
+      (value D) 
+      (footprint Diode_SMD:D_SOD-123) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part D) 
+        (description Diode)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 614B5A4F)) 
+    (comp 
+      (ref D47) 
+      (value D) 
+      (footprint Diode_SMD:D_SOD-123) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part D) 
+        (description Diode)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 614B5F02)) 
+    (comp 
+      (ref D42) 
+      (value D) 
+      (footprint Diode_SMD:D_SOD-123) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part D) 
+        (description Diode)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 614B61DA)) 
+    (comp 
+      (ref D38) 
+      (value D) 
+      (footprint Diode_SMD:D_SOD-123) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part D) 
+        (description Diode)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 614B652A)) 
+    (comp 
+      (ref D34) 
+      (value D) 
+      (footprint Diode_SMD:D_SOD-123) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part D) 
+        (description Diode)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 614B698D)) 
+    (comp 
+      (ref D30) 
+      (value D) 
+      (footprint Diode_SMD:D_SOD-123) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part D) 
+        (description Diode)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 614B6C24)) 
+    (comp 
+      (ref D25) 
+      (value D) 
+      (footprint Diode_SMD:D_SOD-123) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part D) 
+        (description Diode)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 614B6FF1)) 
+    (comp 
+      (ref D21) 
+      (value D) 
+      (footprint Diode_SMD:D_SOD-123) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part D) 
+        (description Diode)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 614B72A1)) 
+    (comp 
+      (ref D17) 
+      (value D) 
+      (footprint Diode_SMD:D_SOD-123) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part D) 
+        (description Diode)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 614B74D9)) 
+    (comp 
+      (ref D8) 
+      (value D) 
+      (footprint Diode_SMD:D_SOD-123) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part D) 
+        (description Diode)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 614B7CCD)) 
+    (comp 
+      (ref D5) 
+      (value D) 
+      (footprint Diode_SMD:D_SOD-123) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part D) 
+        (description Diode)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 614B7FF4)) 
+    (comp 
+      (ref D3) 
+      (value D) 
+      (footprint Diode_SMD:D_SOD-123) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part D) 
+        (description Diode)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 614B8457)) 
+    (comp 
+      (ref D9) 
+      (value D) 
+      (footprint Diode_SMD:D_SOD-123) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part D) 
+        (description Diode)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 614B97F2)) 
+    (comp 
+      (ref D14) 
+      (value D) 
+      (footprint Diode_SMD:D_SOD-123) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part D) 
+        (description Diode)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 614BA48C)) 
+    (comp 
+      (ref D18) 
+      (value D) 
+      (footprint Diode_SMD:D_SOD-123) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part D) 
+        (description Diode)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 614BA8E0)) 
+    (comp 
+      (ref D22) 
+      (value D) 
+      (footprint Diode_SMD:D_SOD-123) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part D) 
+        (description Diode)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 614BAC49)) 
+    (comp 
+      (ref D26) 
+      (value D) 
+      (footprint Diode_SMD:D_SOD-123) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part D) 
+        (description Diode)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 614BAFE9)) 
+    (comp 
+      (ref D31) 
+      (value D) 
+      (footprint Diode_SMD:D_SOD-123) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part D) 
+        (description Diode)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 614BB447)) 
+    (comp 
+      (ref D35) 
+      (value D) 
+      (footprint Diode_SMD:D_SOD-123) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part D) 
+        (description Diode)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 614BB8B4)) 
+    (comp 
+      (ref D39) 
+      (value D) 
+      (footprint Diode_SMD:D_SOD-123) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part D) 
+        (description Diode)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 614BBBE1)) 
+    (comp 
+      (ref D43) 
+      (value D) 
+      (footprint Diode_SMD:D_SOD-123) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part D) 
+        (description Diode)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 614BBF0E)) 
+    (comp 
+      (ref D48) 
+      (value D) 
+      (footprint Diode_SMD:D_SOD-123) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part D) 
+        (description Diode)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 614BC3AD)) 
+    (comp 
+      (ref D53) 
+      (value D) 
+      (footprint Diode_SMD:D_SOD-123) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part D) 
+        (description Diode)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 614BC72F)) 
+    (comp 
+      (ref D57) 
+      (value D) 
+      (footprint Diode_SMD:D_SOD-123) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part D) 
+        (description Diode)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 614BCECD)) 
+    (comp 
+      (ref D49) 
+      (value D) 
+      (footprint Diode_SMD:D_SOD-123) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part D) 
+        (description Diode)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 614BF2FC)) 
+    (comp 
+      (ref D44) 
+      (value D) 
+      (footprint Diode_SMD:D_SOD-123) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part D) 
+        (description Diode)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 614BF8F4)) 
+    (comp 
+      (ref D40) 
+      (value D) 
+      (footprint Diode_SMD:D_SOD-123) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part D) 
+        (description Diode)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 614BFDC5)) 
+    (comp 
+      (ref D36) 
+      (value D) 
+      (footprint Diode_SMD:D_SOD-123) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part D) 
+        (description Diode)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 614C0395)) 
+    (comp 
+      (ref D32) 
+      (value D) 
+      (footprint Diode_SMD:D_SOD-123) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part D) 
+        (description Diode)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 614C07A3)) 
+    (comp 
+      (ref D27) 
+      (value D) 
+      (footprint Diode_SMD:D_SOD-123) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part D) 
+        (description Diode)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 614C0BA7)) 
+    (comp 
+      (ref D23) 
+      (value D) 
+      (footprint Diode_SMD:D_SOD-123) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part D) 
+        (description Diode)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 614C105F)) 
+    (comp 
+      (ref D15) 
+      (value D) 
+      (footprint Diode_SMD:D_SOD-123) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part D) 
+        (description Diode)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 614C1B96)) 
+    (comp 
+      (ref D10) 
+      (value D) 
+      (footprint Diode_SMD:D_SOD-123) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part D) 
+        (description Diode)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 614C2E10)) 
+    (comp 
+      (ref D6) 
+      (value D) 
+      (footprint Diode_SMD:D_SOD-123) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part D) 
+        (description Diode)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 614C32D7)) 
+    (comp 
+      (ref D60) 
+      (value D) 
+      (footprint Diode_SMD:D_SOD-123) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part D) 
+        (description Diode)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 614C3762)) 
+    (comp 
+      (ref D56) 
+      (value D) 
+      (footprint Diode_SMD:D_SOD-123) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part D) 
+        (description Diode)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 614C4CF7)) 
+    (comp 
+      (ref D51) 
+      (value D) 
+      (footprint Diode_SMD:D_SOD-123) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part D) 
+        (description Diode)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 614C5FED)) 
+    (comp 
+      (ref D46) 
+      (value D) 
+      (footprint Diode_SMD:D_SOD-123) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part D) 
+        (description Diode)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 614C74DE)) 
+    (comp 
+      (ref D29) 
+      (value D) 
+      (footprint Diode_SMD:D_SOD-123) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part D) 
+        (description Diode)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 614CB633)) 
+    (comp 
+      (ref D11) 
+      (value D) 
+      (footprint Diode_SMD:D_SOD-123) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part D) 
+        (description Diode)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 614CCC47)) 
+    (comp 
+      (ref D7) 
+      (value D) 
+      (footprint Diode_SMD:D_SOD-123) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part D) 
+        (description Diode)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 614D0AA4)) 
+    (comp 
+      (ref D2) 
+      (value D) 
+      (footprint Diode_SMD:D_SOD-123) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part D) 
+        (description Diode)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 614D0E5D)) 
+    (comp 
+      (ref D61) 
+      (value D) 
+      (footprint Diode_SMD:D_SOD-123) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part D) 
+        (description Diode)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 614BD245)) 
+    (comp 
+      (ref K72) 
+      (value "Shift 2.75u") 
+      (footprint MX_Only:MXOnly-2.75U-Hotswap) 
+      (libsource 
+        (lib HSE-rescue) 
+        (part KEYSW-keyboard_parts) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6123E92E)) 
+    (comp 
+      (ref D62) 
+      (value SK6812MINI-E) 
+      (footprint kicad-keyboard-parts:MX_SK6812MINI-E_upward_facing) 
+      (datasheet https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf) 
+      (libsource 
+        (lib kicad-keyboard-parts) 
+        (part SK6812MINI-E) 
+        (description "Reverse-mount RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61CDE628)) 
+    (comp 
+      (ref D63) 
+      (value SK6812MINI-E) 
+      (footprint kicad-keyboard-parts:MX_SK6812MINI-E_upward_facing) 
+      (datasheet https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf) 
+      (libsource 
+        (lib kicad-keyboard-parts) 
+        (part SK6812MINI-E) 
+        (description "Reverse-mount RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61CEF61E)) 
+    (comp 
+      (ref D64) 
+      (value SK6812MINI-E) 
+      (footprint kicad-keyboard-parts:MX_SK6812MINI-E_upward_facing) 
+      (datasheet https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf) 
+      (libsource 
+        (lib kicad-keyboard-parts) 
+        (part SK6812MINI-E) 
+        (description "Reverse-mount RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61CF2444)) 
+    (comp 
+      (ref D65) 
+      (value SK6812MINI-E) 
+      (footprint kicad-keyboard-parts:MX_SK6812MINI-E_upward_facing) 
+      (datasheet https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf) 
+      (libsource 
+        (lib kicad-keyboard-parts) 
+        (part SK6812MINI-E) 
+        (description "Reverse-mount RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61CF55E0)) 
+    (comp 
+      (ref D66) 
+      (value SK6812MINI-E) 
+      (footprint kicad-keyboard-parts:MX_SK6812MINI-E_upward_facing) 
+      (datasheet https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf) 
+      (libsource 
+        (lib kicad-keyboard-parts) 
+        (part SK6812MINI-E) 
+        (description "Reverse-mount RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61CF862F)) 
+    (comp 
+      (ref D67) 
+      (value SK6812MINI-E) 
+      (footprint kicad-keyboard-parts:MX_SK6812MINI-E_upward_facing) 
+      (datasheet https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf) 
+      (libsource 
+        (lib kicad-keyboard-parts) 
+        (part SK6812MINI-E) 
+        (description "Reverse-mount RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61CFB79A)) 
+    (comp 
+      (ref D68) 
+      (value SK6812MINI-E) 
+      (footprint kicad-keyboard-parts:MX_SK6812MINI-E_upward_facing) 
+      (datasheet https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf) 
+      (libsource 
+        (lib kicad-keyboard-parts) 
+        (part SK6812MINI-E) 
+        (description "Reverse-mount RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61D02EC8)) 
+    (comp 
+      (ref D69) 
+      (value SK6812MINI-E) 
+      (footprint kicad-keyboard-parts:MX_SK6812MINI-E_upward_facing) 
+      (datasheet https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf) 
+      (libsource 
+        (lib kicad-keyboard-parts) 
+        (part SK6812MINI-E) 
+        (description "Reverse-mount RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61D02EDA)) 
+    (comp 
+      (ref D70) 
+      (value SK6812MINI-E) 
+      (footprint kicad-keyboard-parts:MX_SK6812MINI-E_upward_facing) 
+      (datasheet https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf) 
+      (libsource 
+        (lib kicad-keyboard-parts) 
+        (part SK6812MINI-E) 
+        (description "Reverse-mount RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61D02EEC)) 
+    (comp 
+      (ref D71) 
+      (value SK6812MINI-E) 
+      (footprint kicad-keyboard-parts:MX_SK6812MINI-E_upward_facing) 
+      (datasheet https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf) 
+      (libsource 
+        (lib kicad-keyboard-parts) 
+        (part SK6812MINI-E) 
+        (description "Reverse-mount RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61D02EFE)) 
+    (comp 
+      (ref D72) 
+      (value SK6812MINI-E) 
+      (footprint kicad-keyboard-parts:MX_SK6812MINI-E_upward_facing) 
+      (datasheet https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf) 
+      (libsource 
+        (lib kicad-keyboard-parts) 
+        (part SK6812MINI-E) 
+        (description "Reverse-mount RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61D02F10)) 
+    (comp 
+      (ref D73) 
+      (value SK6812MINI-E) 
+      (footprint kicad-keyboard-parts:MX_SK6812MINI-E_upward_facing) 
+      (datasheet https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf) 
+      (libsource 
+        (lib kicad-keyboard-parts) 
+        (part SK6812MINI-E) 
+        (description "Reverse-mount RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61D02F22)) 
+    (comp 
+      (ref D74) 
+      (value SK6812MINI-E) 
+      (footprint kicad-keyboard-parts:MX_SK6812MINI-E_upward_facing) 
+      (datasheet https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf) 
+      (libsource 
+        (lib kicad-keyboard-parts) 
+        (part SK6812MINI-E) 
+        (description "Reverse-mount RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61D0A936)) 
+    (comp 
+      (ref D75) 
+      (value SK6812MINI-E) 
+      (footprint kicad-keyboard-parts:MX_SK6812MINI-E_upward_facing) 
+      (datasheet https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf) 
+      (libsource 
+        (lib kicad-keyboard-parts) 
+        (part SK6812MINI-E) 
+        (description "Reverse-mount RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61D0A948)) 
+    (comp 
+      (ref D90) 
+      (value SK6812MINI-E) 
+      (footprint kicad-keyboard-parts:MX_SK6812MINI-E_upward_facing) 
+      (datasheet https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf) 
+      (libsource 
+        (lib kicad-keyboard-parts) 
+        (part SK6812MINI-E) 
+        (description "Reverse-mount RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61D4A647)) 
+    (comp 
+      (ref D89) 
+      (value SK6812MINI-E) 
+      (footprint kicad-keyboard-parts:MX_SK6812MINI-E_upward_facing) 
+      (datasheet https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf) 
+      (libsource 
+        (lib kicad-keyboard-parts) 
+        (part SK6812MINI-E) 
+        (description "Reverse-mount RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61D4A659)) 
+    (comp 
+      (ref D88) 
+      (value SK6812MINI-E) 
+      (footprint kicad-keyboard-parts:MX_SK6812MINI-E_upward_facing) 
+      (datasheet https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf) 
+      (libsource 
+        (lib kicad-keyboard-parts) 
+        (part SK6812MINI-E) 
+        (description "Reverse-mount RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61D4A66B)) 
+    (comp 
+      (ref D87) 
+      (value SK6812MINI-E) 
+      (footprint kicad-keyboard-parts:MX_SK6812MINI-E_upward_facing) 
+      (datasheet https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf) 
+      (libsource 
+        (lib kicad-keyboard-parts) 
+        (part SK6812MINI-E) 
+        (description "Reverse-mount RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61D4A67D)) 
+    (comp 
+      (ref D86) 
+      (value SK6812MINI-E) 
+      (footprint kicad-keyboard-parts:MX_SK6812MINI-E_upward_facing) 
+      (datasheet https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf) 
+      (libsource 
+        (lib kicad-keyboard-parts) 
+        (part SK6812MINI-E) 
+        (description "Reverse-mount RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61D4A68F)) 
+    (comp 
+      (ref D85) 
+      (value SK6812MINI-E) 
+      (footprint kicad-keyboard-parts:MX_SK6812MINI-E_upward_facing) 
+      (datasheet https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf) 
+      (libsource 
+        (lib kicad-keyboard-parts) 
+        (part SK6812MINI-E) 
+        (description "Reverse-mount RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61D4A6A1)) 
+    (comp 
+      (ref D84) 
+      (value SK6812MINI-E) 
+      (footprint kicad-keyboard-parts:MX_SK6812MINI-E_upward_facing) 
+      (datasheet https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf) 
+      (libsource 
+        (lib kicad-keyboard-parts) 
+        (part SK6812MINI-E) 
+        (description "Reverse-mount RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61D4A6B3)) 
+    (comp 
+      (ref D83) 
+      (value SK6812MINI-E) 
+      (footprint kicad-keyboard-parts:MX_SK6812MINI-E_upward_facing) 
+      (datasheet https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf) 
+      (libsource 
+        (lib kicad-keyboard-parts) 
+        (part SK6812MINI-E) 
+        (description "Reverse-mount RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61D4A6C5)) 
+    (comp 
+      (ref D82) 
+      (value SK6812MINI-E) 
+      (footprint kicad-keyboard-parts:MX_SK6812MINI-E_upward_facing) 
+      (datasheet https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf) 
+      (libsource 
+        (lib kicad-keyboard-parts) 
+        (part SK6812MINI-E) 
+        (description "Reverse-mount RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61D4A6D7)) 
+    (comp 
+      (ref D81) 
+      (value SK6812MINI-E) 
+      (footprint kicad-keyboard-parts:MX_SK6812MINI-E_upward_facing) 
+      (datasheet https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf) 
+      (libsource 
+        (lib kicad-keyboard-parts) 
+        (part SK6812MINI-E) 
+        (description "Reverse-mount RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61D4A6E9)) 
+    (comp 
+      (ref D80) 
+      (value SK6812MINI-E) 
+      (footprint kicad-keyboard-parts:MX_SK6812MINI-E_upward_facing) 
+      (datasheet https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf) 
+      (libsource 
+        (lib kicad-keyboard-parts) 
+        (part SK6812MINI-E) 
+        (description "Reverse-mount RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61D4A6FB)) 
+    (comp 
+      (ref D79) 
+      (value SK6812MINI-E) 
+      (footprint kicad-keyboard-parts:MX_SK6812MINI-E_upward_facing) 
+      (datasheet https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf) 
+      (libsource 
+        (lib kicad-keyboard-parts) 
+        (part SK6812MINI-E) 
+        (description "Reverse-mount RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61D4A70D)) 
+    (comp 
+      (ref D78) 
+      (value SK6812MINI-E) 
+      (footprint kicad-keyboard-parts:MX_SK6812MINI-E_upward_facing) 
+      (datasheet https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf) 
+      (libsource 
+        (lib kicad-keyboard-parts) 
+        (part SK6812MINI-E) 
+        (description "Reverse-mount RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61D4A71F)) 
+    (comp 
+      (ref D77) 
+      (value SK6812MINI-E) 
+      (footprint kicad-keyboard-parts:MX_SK6812MINI-E_upward_facing) 
+      (datasheet https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf) 
+      (libsource 
+        (lib kicad-keyboard-parts) 
+        (part SK6812MINI-E) 
+        (description "Reverse-mount RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61D4A731)) 
+    (comp 
+      (ref D91) 
+      (value SK6812MINI-E) 
+      (footprint kicad-keyboard-parts:MX_SK6812MINI-E_upward_facing) 
+      (datasheet https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf) 
+      (libsource 
+        (lib kicad-keyboard-parts) 
+        (part SK6812MINI-E) 
+        (description "Reverse-mount RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61DB947D)) 
+    (comp 
+      (ref D92) 
+      (value SK6812MINI-E) 
+      (footprint kicad-keyboard-parts:MX_SK6812MINI-E_upward_facing) 
+      (datasheet https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf) 
+      (libsource 
+        (lib kicad-keyboard-parts) 
+        (part SK6812MINI-E) 
+        (description "Reverse-mount RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61DB948F)) 
+    (comp 
+      (ref D93) 
+      (value SK6812MINI-E) 
+      (footprint kicad-keyboard-parts:MX_SK6812MINI-E_upward_facing) 
+      (datasheet https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf) 
+      (libsource 
+        (lib kicad-keyboard-parts) 
+        (part SK6812MINI-E) 
+        (description "Reverse-mount RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61DB94A1)) 
+    (comp 
+      (ref D94) 
+      (value SK6812MINI-E) 
+      (footprint kicad-keyboard-parts:MX_SK6812MINI-E_upward_facing) 
+      (datasheet https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf) 
+      (libsource 
+        (lib kicad-keyboard-parts) 
+        (part SK6812MINI-E) 
+        (description "Reverse-mount RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61DB94B3)) 
+    (comp 
+      (ref D95) 
+      (value SK6812MINI-E) 
+      (footprint kicad-keyboard-parts:MX_SK6812MINI-E_upward_facing) 
+      (datasheet https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf) 
+      (libsource 
+        (lib kicad-keyboard-parts) 
+        (part SK6812MINI-E) 
+        (description "Reverse-mount RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61DB94C5)) 
+    (comp 
+      (ref D96) 
+      (value SK6812MINI-E) 
+      (footprint kicad-keyboard-parts:MX_SK6812MINI-E_upward_facing) 
+      (datasheet https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf) 
+      (libsource 
+        (lib kicad-keyboard-parts) 
+        (part SK6812MINI-E) 
+        (description "Reverse-mount RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61DB94D7)) 
+    (comp 
+      (ref D97) 
+      (value SK6812MINI-E) 
+      (footprint kicad-keyboard-parts:MX_SK6812MINI-E_upward_facing) 
+      (datasheet https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf) 
+      (libsource 
+        (lib kicad-keyboard-parts) 
+        (part SK6812MINI-E) 
+        (description "Reverse-mount RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61DB94E9)) 
+    (comp 
+      (ref D98) 
+      (value SK6812MINI-E) 
+      (footprint kicad-keyboard-parts:MX_SK6812MINI-E_upward_facing) 
+      (datasheet https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf) 
+      (libsource 
+        (lib kicad-keyboard-parts) 
+        (part SK6812MINI-E) 
+        (description "Reverse-mount RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61DB94FB)) 
+    (comp 
+      (ref D99) 
+      (value SK6812MINI-E) 
+      (footprint kicad-keyboard-parts:MX_SK6812MINI-E_upward_facing) 
+      (datasheet https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf) 
+      (libsource 
+        (lib kicad-keyboard-parts) 
+        (part SK6812MINI-E) 
+        (description "Reverse-mount RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61DB950D)) 
+    (comp 
+      (ref D100) 
+      (value SK6812MINI-E) 
+      (footprint kicad-keyboard-parts:MX_SK6812MINI-E_upward_facing) 
+      (datasheet https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf) 
+      (libsource 
+        (lib kicad-keyboard-parts) 
+        (part SK6812MINI-E) 
+        (description "Reverse-mount RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61DB951F)) 
+    (comp 
+      (ref D101) 
+      (value SK6812MINI-E) 
+      (footprint kicad-keyboard-parts:MX_SK6812MINI-E_upward_facing) 
+      (datasheet https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf) 
+      (libsource 
+        (lib kicad-keyboard-parts) 
+        (part SK6812MINI-E) 
+        (description "Reverse-mount RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61DB9531)) 
+    (comp 
+      (ref D102) 
+      (value SK6812MINI-E) 
+      (footprint kicad-keyboard-parts:MX_SK6812MINI-E_upward_facing) 
+      (datasheet https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf) 
+      (libsource 
+        (lib kicad-keyboard-parts) 
+        (part SK6812MINI-E) 
+        (description "Reverse-mount RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61DB9543)) 
+    (comp 
+      (ref D103) 
+      (value SK6812MINI-E) 
+      (footprint kicad-keyboard-parts:MX_SK6812MINI-E_upward_facing) 
+      (datasheet https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf) 
+      (libsource 
+        (lib kicad-keyboard-parts) 
+        (part SK6812MINI-E) 
+        (description "Reverse-mount RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61DB9555)) 
+    (comp 
+      (ref D115) 
+      (value SK6812MINI-E) 
+      (footprint kicad-keyboard-parts:MX_SK6812MINI-E_upward_facing) 
+      (datasheet https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf) 
+      (libsource 
+        (lib kicad-keyboard-parts) 
+        (part SK6812MINI-E) 
+        (description "Reverse-mount RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61E587EF)) 
+    (comp 
+      (ref D114) 
+      (value SK6812MINI-E) 
+      (footprint kicad-keyboard-parts:MX_SK6812MINI-E_upward_facing) 
+      (datasheet https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf) 
+      (libsource 
+        (lib kicad-keyboard-parts) 
+        (part SK6812MINI-E) 
+        (description "Reverse-mount RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61E58801)) 
+    (comp 
+      (ref D113) 
+      (value SK6812MINI-E) 
+      (footprint kicad-keyboard-parts:MX_SK6812MINI-E_upward_facing) 
+      (datasheet https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf) 
+      (libsource 
+        (lib kicad-keyboard-parts) 
+        (part SK6812MINI-E) 
+        (description "Reverse-mount RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61E58813)) 
+    (comp 
+      (ref D112) 
+      (value SK6812MINI-E) 
+      (footprint kicad-keyboard-parts:MX_SK6812MINI-E_upward_facing) 
+      (datasheet https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf) 
+      (libsource 
+        (lib kicad-keyboard-parts) 
+        (part SK6812MINI-E) 
+        (description "Reverse-mount RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61E58825)) 
+    (comp 
+      (ref D111) 
+      (value SK6812MINI-E) 
+      (footprint kicad-keyboard-parts:MX_SK6812MINI-E_upward_facing) 
+      (datasheet https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf) 
+      (libsource 
+        (lib kicad-keyboard-parts) 
+        (part SK6812MINI-E) 
+        (description "Reverse-mount RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61E58837)) 
+    (comp 
+      (ref D110) 
+      (value SK6812MINI-E) 
+      (footprint kicad-keyboard-parts:MX_SK6812MINI-E_upward_facing) 
+      (datasheet https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf) 
+      (libsource 
+        (lib kicad-keyboard-parts) 
+        (part SK6812MINI-E) 
+        (description "Reverse-mount RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61E58849)) 
+    (comp 
+      (ref D109) 
+      (value SK6812MINI-E) 
+      (footprint kicad-keyboard-parts:MX_SK6812MINI-E_upward_facing) 
+      (datasheet https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf) 
+      (libsource 
+        (lib kicad-keyboard-parts) 
+        (part SK6812MINI-E) 
+        (description "Reverse-mount RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61E5885B)) 
+    (comp 
+      (ref D108) 
+      (value SK6812MINI-E) 
+      (footprint kicad-keyboard-parts:MX_SK6812MINI-E_upward_facing) 
+      (datasheet https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf) 
+      (libsource 
+        (lib kicad-keyboard-parts) 
+        (part SK6812MINI-E) 
+        (description "Reverse-mount RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61E5886D)) 
+    (comp 
+      (ref D107) 
+      (value SK6812MINI-E) 
+      (footprint kicad-keyboard-parts:MX_SK6812MINI-E_upward_facing) 
+      (datasheet https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf) 
+      (libsource 
+        (lib kicad-keyboard-parts) 
+        (part SK6812MINI-E) 
+        (description "Reverse-mount RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61E5887F)) 
+    (comp 
+      (ref D106) 
+      (value SK6812MINI-E) 
+      (footprint kicad-keyboard-parts:MX_SK6812MINI-E_upward_facing) 
+      (datasheet https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf) 
+      (libsource 
+        (lib kicad-keyboard-parts) 
+        (part SK6812MINI-E) 
+        (description "Reverse-mount RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61E58891)) 
+    (comp 
+      (ref D105) 
+      (value SK6812MINI-E) 
+      (footprint kicad-keyboard-parts:MX_SK6812MINI-E_upward_facing) 
+      (datasheet https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf) 
+      (libsource 
+        (lib kicad-keyboard-parts) 
+        (part SK6812MINI-E) 
+        (description "Reverse-mount RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61E588A3)) 
+    (comp 
+      (ref D104) 
+      (value SK6812MINI-E) 
+      (footprint kicad-keyboard-parts:MX_SK6812MINI-E_upward_facing) 
+      (datasheet https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf) 
+      (libsource 
+        (lib kicad-keyboard-parts) 
+        (part SK6812MINI-E) 
+        (description "Reverse-mount RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61E588B5)) 
+    (comp 
+      (ref D116) 
+      (value SK6812MINI-E) 
+      (footprint kicad-keyboard-parts:MX_SK6812MINI-E_upward_facing) 
+      (datasheet https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf) 
+      (libsource 
+        (lib kicad-keyboard-parts) 
+        (part SK6812MINI-E) 
+        (description "Reverse-mount RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61EABFD6)) 
+    (comp 
+      (ref D117) 
+      (value SK6812MINI-E) 
+      (footprint kicad-keyboard-parts:MX_SK6812MINI-E_upward_facing) 
+      (datasheet https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf) 
+      (libsource 
+        (lib kicad-keyboard-parts) 
+        (part SK6812MINI-E) 
+        (description "Reverse-mount RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61EABFE8)) 
+    (comp 
+      (ref D118) 
+      (value SK6812MINI-E) 
+      (footprint kicad-keyboard-parts:MX_SK6812MINI-E_upward_facing) 
+      (datasheet https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf) 
+      (libsource 
+        (lib kicad-keyboard-parts) 
+        (part SK6812MINI-E) 
+        (description "Reverse-mount RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61EABFFA)) 
+    (comp 
+      (ref D119) 
+      (value SK6812MINI-E) 
+      (footprint kicad-keyboard-parts:MX_SK6812MINI-E_upward_facing) 
+      (datasheet https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf) 
+      (libsource 
+        (lib kicad-keyboard-parts) 
+        (part SK6812MINI-E) 
+        (description "Reverse-mount RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61EAC00C)) 
+    (comp 
+      (ref D120) 
+      (value SK6812MINI-E) 
+      (footprint kicad-keyboard-parts:MX_SK6812MINI-E_upward_facing) 
+      (datasheet https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf) 
+      (libsource 
+        (lib kicad-keyboard-parts) 
+        (part SK6812MINI-E) 
+        (description "Reverse-mount RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61EAC01E)) 
+    (comp 
+      (ref D121) 
+      (value SK6812MINI-E) 
+      (footprint kicad-keyboard-parts:MX_SK6812MINI-E_upward_facing) 
+      (datasheet https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf) 
+      (libsource 
+        (lib kicad-keyboard-parts) 
+        (part SK6812MINI-E) 
+        (description "Reverse-mount RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61EAC030)) 
+    (comp 
+      (ref D122) 
+      (value SK6812MINI-E) 
+      (footprint kicad-keyboard-parts:MX_SK6812MINI-E_upward_facing) 
+      (datasheet https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf) 
+      (libsource 
+        (lib kicad-keyboard-parts) 
+        (part SK6812MINI-E) 
+        (description "Reverse-mount RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61EAC042)) 
+    (comp 
+      (ref D123) 
+      (value SK6812MINI-E) 
+      (footprint kicad-keyboard-parts:MX_SK6812MINI-E_upward_facing) 
+      (datasheet https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf) 
+      (libsource 
+        (lib kicad-keyboard-parts) 
+        (part SK6812MINI-E) 
+        (description "Reverse-mount RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61EAC054)) 
+    (comp 
+      (ref D1) 
+      (value D) 
+      (footprint Diode_SMD:D_SOD-123) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part D) 
+        (description Diode)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 614B0F3A)) 
+    (comp 
+      (ref K38) 
+      (value U) 
+      (footprint MX_Only:MXOnly-1U-Hotswap) 
+      (libsource 
+        (lib HSE-rescue) 
+        (part KEYSW-keyboard_parts) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6124248B)) 
+    (comp 
+      (ref K42) 
+      (value I) 
+      (footprint MX_Only:MXOnly-1U-Hotswap) 
+      (libsource 
+        (lib HSE-rescue) 
+        (part KEYSW-keyboard_parts) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6124289B)) 
+    (comp 
+      (ref K46) 
+      (value O) 
+      (footprint MX_Only:MXOnly-1U-Hotswap) 
+      (libsource 
+        (lib HSE-rescue) 
+        (part KEYSW-keyboard_parts) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61242DB5)) 
+    (comp 
+      (ref D13) 
+      (value D) 
+      (footprint Diode_SMD:D_SOD-123) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part D) 
+        (description Diode)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 614B7801)) 
+    (comp 
+      (ref D19) 
+      (value D) 
+      (footprint Diode_SMD:D_SOD-123) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part D) 
+        (description Diode)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 614C151C))) 
+  (libparts 
+    (libpart 
+      (lib Device) 
+      (part C) 
+      (description "Unpolarized capacitor") 
+      (docs ~) 
+      (footprints 
+        (fp C_*)) 
+      (fields 
+        (field 
+          (name Reference) C) 
+        (field 
+          (name Value) C)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name ~) 
+          (type passive)))) 
+    (libpart 
+      (lib Device) 
+      (part CP) 
+      (description "Polarized capacitor") 
+      (docs ~) 
+      (footprints 
+        (fp CP_*)) 
+      (fields 
+        (field 
+          (name Reference) C) 
+        (field 
+          (name Value) CP)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name ~) 
+          (type passive)))) 
+    (libpart 
+      (lib Device) 
+      (part D) 
+      (description Diode) 
+      (docs ~) 
+      (footprints 
+        (fp TO-???*) 
+        (fp *_Diode_*) 
+        (fp *SingleDiode*) 
+        (fp D_*)) 
+      (fields 
+        (field 
+          (name Reference) D) 
+        (field 
+          (name Value) D)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name K) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name A) 
+          (type passive)))) 
+    (libpart 
+      (lib Device) 
+      (part Polyfuse_Small) 
+      (description "Resettable fuse, polymeric positive temperature coefficient, small symbol") 
+      (docs ~) 
+      (footprints 
+        (fp *polyfuse*) 
+        (fp *PTC*)) 
+      (fields 
+        (field 
+          (name Reference) F) 
+        (field 
+          (name Value) Polyfuse_Small)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name ~) 
+          (type passive)))) 
+    (libpart 
+      (lib Device) 
+      (part R) 
+      (description Resistor) 
+      (docs ~) 
+      (footprints 
+        (fp R_*)) 
+      (fields 
+        (field 
+          (name Reference) R) 
+        (field 
+          (name Value) R)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name ~) 
+          (type passive)))) 
+    (libpart 
+      (lib HSE-rescue) 
+      (part KEYSW-keyboard_parts) 
+      (fields 
+        (field 
+          (name Reference) K?) 
+        (field 
+          (name Value) KEYSW-keyboard_parts)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name ~) 
+          (type passive)))) 
+    (libpart 
+      (lib MCU_Microchip_ATmega) 
+      (part ATmega16U4-MU) 
+      (aliases 
+        (alias ATmega16U4RC-MU) 
+        (alias ATmega32U4-MU) 
+        (alias ATmega32U4RC-MU)) 
+      (description "16MHz, 16kB Flash, 1.25kB SRAM, 512B EEPROM, USB 2.0, QFN-44") 
+      (docs http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf) 
+      (footprints 
+        (fp QFN*1EP*7x7mm*P0.5mm*)) 
+      (fields 
+        (field 
+          (name Reference) U) 
+        (field 
+          (name Value) ATmega16U4-MU) 
+        (field 
+          (name Footprint) Package_DFN_QFN:QFN-44-1EP_7x7mm_P0.5mm_EP5.2x5.2mm)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name PE6) 
+          (type BiDi)) 
+        (pin 
+          (num 2) 
+          (name UVCC) 
+          (type power_in)) 
+        (pin 
+          (num 3) 
+          (name D-) 
+          (type BiDi)) 
+        (pin 
+          (num 4) 
+          (name D+) 
+          (type BiDi)) 
+        (pin 
+          (num 5) 
+          (name UGND) 
+          (type passive)) 
+        (pin 
+          (num 6) 
+          (name UCAP) 
+          (type passive)) 
+        (pin 
+          (num 7) 
+          (name VBUS) 
+          (type input)) 
+        (pin 
+          (num 8) 
+          (name PB0) 
+          (type BiDi)) 
+        (pin 
+          (num 9) 
+          (name PB1) 
+          (type BiDi)) 
+        (pin 
+          (num 10) 
+          (name PB2) 
+          (type BiDi)) 
+        (pin 
+          (num 11) 
+          (name PB3) 
+          (type BiDi)) 
+        (pin 
+          (num 12) 
+          (name PB7) 
+          (type BiDi)) 
+        (pin 
+          (num 13) 
+          (name ~RESET) 
+          (type input)) 
+        (pin 
+          (num 14) 
+          (name VCC) 
+          (type power_in)) 
+        (pin 
+          (num 15) 
+          (name GND) 
+          (type power_in)) 
+        (pin 
+          (num 16) 
+          (name XTAL2) 
+          (type output)) 
+        (pin 
+          (num 17) 
+          (name XTAL1) 
+          (type input)) 
+        (pin 
+          (num 18) 
+          (name PD0) 
+          (type BiDi)) 
+        (pin 
+          (num 19) 
+          (name PD1) 
+          (type BiDi)) 
+        (pin 
+          (num 20) 
+          (name PD2) 
+          (type BiDi)) 
+        (pin 
+          (num 21) 
+          (name PD3) 
+          (type BiDi)) 
+        (pin 
+          (num 22) 
+          (name PD5) 
+          (type BiDi)) 
+        (pin 
+          (num 23) 
+          (name GND) 
+          (type passive)) 
+        (pin 
+          (num 24) 
+          (name AVCC) 
+          (type power_in)) 
+        (pin 
+          (num 25) 
+          (name PD4) 
+          (type BiDi)) 
+        (pin 
+          (num 26) 
+          (name PD6) 
+          (type BiDi)) 
+        (pin 
+          (num 27) 
+          (name PD7) 
+          (type BiDi)) 
+        (pin 
+          (num 28) 
+          (name PB4) 
+          (type BiDi)) 
+        (pin 
+          (num 29) 
+          (name PB5) 
+          (type BiDi)) 
+        (pin 
+          (num 30) 
+          (name PB6) 
+          (type BiDi)) 
+        (pin 
+          (num 31) 
+          (name PC6) 
+          (type BiDi)) 
+        (pin 
+          (num 32) 
+          (name PC7) 
+          (type BiDi)) 
+        (pin 
+          (num 33) 
+          (name ~HWB~/PE2) 
+          (type BiDi)) 
+        (pin 
+          (num 34) 
+          (name VCC) 
+          (type passive)) 
+        (pin 
+          (num 35) 
+          (name GND) 
+          (type passive)) 
+        (pin 
+          (num 36) 
+          (name PF7) 
+          (type BiDi)) 
+        (pin 
+          (num 37) 
+          (name PF6) 
+          (type BiDi)) 
+        (pin 
+          (num 38) 
+          (name PF5) 
+          (type BiDi)) 
+        (pin 
+          (num 39) 
+          (name PF4) 
+          (type BiDi)) 
+        (pin 
+          (num 40) 
+          (name PF1) 
+          (type BiDi)) 
+        (pin 
+          (num 41) 
+          (name PF0) 
+          (type BiDi)) 
+        (pin 
+          (num 42) 
+          (name AREF) 
+          (type passive)) 
+        (pin 
+          (num 43) 
+          (name GND) 
+          (type passive)) 
+        (pin 
+          (num 44) 
+          (name AVCC) 
+          (type passive)) 
+        (pin 
+          (num 45) 
+          (name GND) 
+          (type passive)))) 
+    (libpart 
+      (lib Switch) 
+      (part SW_Push) 
+      (description "Push button switch, generic, two pins") 
+      (docs ~) 
+      (fields 
+        (field 
+          (name Reference) SW) 
+        (field 
+          (name Value) SW_Push)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name 1) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name 2) 
+          (type passive)))) 
+    (libpart 
+      (lib keebio) 
+      (part HRO-TYPE-C-31-M-12) 
+      (fields 
+        (field 
+          (name Reference) USB) 
+        (field 
+          (name Value) HRO-TYPE-C-31-M-12)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name GND) 
+          (type input)) 
+        (pin 
+          (num 2) 
+          (name VBUS) 
+          (type input)) 
+        (pin 
+          (num 3) 
+          (name SBU2) 
+          (type input)) 
+        (pin 
+          (num 4) 
+          (name CC1) 
+          (type input)) 
+        (pin 
+          (num 5) 
+          (name DN2) 
+          (type input)) 
+        (pin 
+          (num 6) 
+          (name DP1) 
+          (type input)) 
+        (pin 
+          (num 7) 
+          (name DN1) 
+          (type input)) 
+        (pin 
+          (num 8) 
+          (name DP2) 
+          (type input)) 
+        (pin 
+          (num 9) 
+          (name SBU1) 
+          (type input)) 
+        (pin 
+          (num 10) 
+          (name CC2) 
+          (type input)) 
+        (pin 
+          (num 11) 
+          (name VBUS) 
+          (type input)) 
+        (pin 
+          (num 12) 
+          (name GND) 
+          (type input)) 
+        (pin 
+          (num 13) 
+          (name SHIELD) 
+          (type input)))) 
+    (libpart 
+      (lib keebio) 
+      (part PRTR5V0U2X) 
+      (fields 
+        (field 
+          (name Reference) U) 
+        (field 
+          (name Value) PRTR5V0U2X)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name GND) 
+          (type input)) 
+        (pin 
+          (num 2) 
+          (name I/O1) 
+          (type input)) 
+        (pin 
+          (num 3) 
+          (name I/O2) 
+          (type input)) 
+        (pin 
+          (num 4) 
+          (name VCC) 
+          (type input)))) 
+    (libpart 
+      (lib keyboard_parts) 
+      (part XTAL_GND) 
+      (fields 
+        (field 
+          (name Reference) X) 
+        (field 
+          (name Value) XTAL_GND)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name 1) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name 2) 
+          (type passive)) 
+        (pin 
+          (num 3) 
+          (name ~) 
+          (type passive)))) 
+    (libpart 
+      (lib kicad-keyboard-parts) 
+      (part SK6812MINI-E) 
+      (description "Reverse-mount RGB LED with integrated controller") 
+      (docs https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf) 
+      (footprints 
+        (fp LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*)) 
+      (fields 
+        (field 
+          (name Reference) D) 
+        (field 
+          (name Value) SK6812MINI-E) 
+        (field 
+          (name Footprint) kicad-keyboard-parts:MX_SK6812MINI-E)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name VDD) 
+          (type power_in)) 
+        (pin 
+          (num 2) 
+          (name DOUT) 
+          (type output)) 
+        (pin 
+          (num 3) 
+          (name VSS) 
+          (type power_in)) 
+        (pin 
+          (num 4) 
+          (name DIN) 
+          (type input))))) 
+  (libraries 
+    (library 
+      (logical Device) 
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Device.lib")) 
+    (library 
+      (logical HSE-rescue) 
+      (uri "C:\\Users\\mwcor\\Google Drive\\KiCad 02\\Projects\\1up Work\\60 HSE RGB 01/HSE-rescue.lib")) 
+    (library 
+      (logical MCU_Microchip_ATmega) 
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/MCU_Microchip_ATmega.lib")) 
+    (library 
+      (logical Switch) 
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Switch.lib")) 
+    (library 
+      (logical keebio) 
+      (uri "C:/Users/mwcor/Google Drive/KiCad 02/Libraries/keebio-components-master/keebio.lib")) 
+    (library 
+      (logical keyboard_parts) 
+      (uri "C:/Users/mwcor/Google Drive/KiCad 02/Libraries/kicad_lib_tmk-master/kicad_lib_tmk-master/keyboard_parts.lib")) 
+    (library 
+      (logical kicad-keyboard-parts) 
+      (uri "C:/Users/mwcor/Google Drive/KiCad 02/Libraries/kicad-keyboard-parts.pretty-master/Schematic Library/kicad-keyboard-parts.lib"))) 
+  (nets 
+    (net 
+      (code 1) 
+      (name "Net-(D101-Pad2)") 
+      (node 
+        (ref D101) 
+        (pin 2)) 
+      (node 
+        (ref D102) 
+        (pin 4))) 
+    (net 
+      (code 2) 
+      (name "Net-(D102-Pad2)") 
+      (node 
+        (ref D102) 
+        (pin 2)) 
+      (node 
+        (ref D103) 
+        (pin 4))) 
+    (net 
+      (code 3) 
+      (name GND) 
+      (node 
+        (ref D68) 
+        (pin 3)) 
+      (node 
+        (ref D67) 
+        (pin 3)) 
+      (node 
+        (ref D74) 
+        (pin 3)) 
+      (node 
+        (ref D70) 
+        (pin 3)) 
+      (node 
+        (ref D69) 
+        (pin 3)) 
+      (node 
+        (ref D78) 
+        (pin 3)) 
+      (node 
+        (ref D62) 
+        (pin 3)) 
+      (node 
+        (ref D66) 
+        (pin 3)) 
+      (node 
+        (ref D65) 
+        (pin 3)) 
+      (node 
+        (ref D73) 
+        (pin 3)) 
+      (node 
+        (ref D72) 
+        (pin 3)) 
+      (node 
+        (ref D75) 
+        (pin 3)) 
+      (node 
+        (ref D71) 
+        (pin 3)) 
+      (node 
+        (ref D87) 
+        (pin 3)) 
+      (node 
+        (ref D86) 
+        (pin 3)) 
+      (node 
+        (ref D90) 
+        (pin 3)) 
+      (node 
+        (ref D92) 
+        (pin 3)) 
+      (node 
+        (ref D88) 
+        (pin 3)) 
+      (node 
+        (ref D89) 
+        (pin 3)) 
+      (node 
+        (ref D83) 
+        (pin 3)) 
+      (node 
+        (ref D82) 
+        (pin 3)) 
+      (node 
+        (ref D77) 
+        (pin 3)) 
+      (node 
+        (ref D81) 
+        (pin 3)) 
+      (node 
+        (ref D79) 
+        (pin 3)) 
+      (node 
+        (ref D80) 
+        (pin 3)) 
+      (node 
+        (ref D93) 
+        (pin 3)) 
+      (node 
+        (ref D95) 
+        (pin 3)) 
+      (node 
+        (ref D94) 
+        (pin 3)) 
+      (node 
+        (ref D91) 
+        (pin 3)) 
+      (node 
+        (ref U1) 
+        (pin 23)) 
+      (node 
+        (ref U1) 
+        (pin 43)) 
+      (node 
+        (ref U2) 
+        (pin 1)) 
+      (node 
+        (ref U1) 
+        (pin 15)) 
+      (node 
+        (ref U1) 
+        (pin 35)) 
+      (node 
+        (ref D117) 
+        (pin 3)) 
+      (node 
+        (ref D118) 
+        (pin 3)) 
+      (node 
+        (ref D123) 
+        (pin 3)) 
+      (node 
+        (ref C3) 
+        (pin 1)) 
+      (node 
+        (ref X1) 
+        (pin 3)) 
+      (node 
+        (ref C4) 
+        (pin 1)) 
+      (node 
+        (ref USB1) 
+        (pin 13)) 
+      (node 
+        (ref USB1) 
+        (pin 12)) 
+      (node 
+        (ref USB1) 
+        (pin 1)) 
+      (node 
+        (ref C1) 
+        (pin 1)) 
+      (node 
+        (ref U1) 
+        (pin 5)) 
+      (node 
+        (ref U1) 
+        (pin 45)) 
+      (node 
+        (ref C2) 
+        (pin 2)) 
+      (node 
+        (ref D119) 
+        (pin 3)) 
+      (node 
+        (ref D120) 
+        (pin 3)) 
+      (node 
+        (ref R3) 
+        (pin 1)) 
+      (node 
+        (ref R4) 
+        (pin 1)) 
+      (node 
+        (ref R5) 
+        (pin 1)) 
+      (node 
+        (ref SW1) 
+        (pin 2)) 
+      (node 
+        (ref D64) 
+        (pin 3)) 
+      (node 
+        (ref D102) 
+        (pin 3)) 
+      (node 
+        (ref D105) 
+        (pin 3)) 
+      (node 
+        (ref D116) 
+        (pin 3)) 
+      (node 
+        (ref D104) 
+        (pin 3)) 
+      (node 
+        (ref D63) 
+        (pin 3)) 
+      (node 
+        (ref D121) 
+        (pin 3)) 
+      (node 
+        (ref D122) 
+        (pin 3)) 
+      (node 
+        (ref D84) 
+        (pin 3)) 
+      (node 
+        (ref D107) 
+        (pin 3)) 
+      (node 
+        (ref D101) 
+        (pin 3)) 
+      (node 
+        (ref D96) 
+        (pin 3)) 
+      (node 
+        (ref D108) 
+        (pin 3)) 
+      (node 
+        (ref D115) 
+        (pin 3)) 
+      (node 
+        (ref D100) 
+        (pin 3)) 
+      (node 
+        (ref D106) 
+        (pin 3)) 
+      (node 
+        (ref D98) 
+        (pin 3)) 
+      (node 
+        (ref D109) 
+        (pin 3)) 
+      (node 
+        (ref D110) 
+        (pin 3)) 
+      (node 
+        (ref D114) 
+        (pin 3)) 
+      (node 
+        (ref D103) 
+        (pin 3)) 
+      (node 
+        (ref D99) 
+        (pin 3)) 
+      (node 
+        (ref D111) 
+        (pin 3)) 
+      (node 
+        (ref D97) 
+        (pin 3)) 
+      (node 
+        (ref D85) 
+        (pin 3)) 
+      (node 
+        (ref D113) 
+        (pin 3))) 
+    (net 
+      (code 4) 
+      (name +5V) 
+      (node 
+        (ref D106) 
+        (pin 1)) 
+      (node 
+        (ref D96) 
+        (pin 1)) 
+      (node 
+        (ref D73) 
+        (pin 1)) 
+      (node 
+        (ref D67) 
+        (pin 1)) 
+      (node 
+        (ref D69) 
+        (pin 1)) 
+      (node 
+        (ref D105) 
+        (pin 1)) 
+      (node 
+        (ref D68) 
+        (pin 1)) 
+      (node 
+        (ref D72) 
+        (pin 1)) 
+      (node 
+        (ref D74) 
+        (pin 1)) 
+      (node 
+        (ref D107) 
+        (pin 1)) 
+      (node 
+        (ref D75) 
+        (pin 1)) 
+      (node 
+        (ref D98) 
+        (pin 1)) 
+      (node 
+        (ref D123) 
+        (pin 1)) 
+      (node 
+        (ref D122) 
+        (pin 1)) 
+      (node 
+        (ref D119) 
+        (pin 1)) 
+      (node 
+        (ref D99) 
+        (pin 1)) 
+      (node 
+        (ref D120) 
+        (pin 1)) 
+      (node 
+        (ref D121) 
+        (pin 1)) 
+      (node 
+        (ref D104) 
+        (pin 1)) 
+      (node 
+        (ref D116) 
+        (pin 1)) 
+      (node 
+        (ref D65) 
+        (pin 1)) 
+      (node 
+        (ref D62) 
+        (pin 1)) 
+      (node 
+        (ref D66) 
+        (pin 1)) 
+      (node 
+        (ref D63) 
+        (pin 1)) 
+      (node 
+        (ref D109) 
+        (pin 1)) 
+      (node 
+        (ref D64) 
+        (pin 1)) 
+      (node 
+        (ref R6) 
+        (pin 1)) 
+      (node 
+        (ref C2) 
+        (pin 1)) 
+      (node 
+        (ref D108) 
+        (pin 1)) 
+      (node 
+        (ref F1) 
+        (pin 1)) 
+      (node 
+        (ref D101) 
+        (pin 1)) 
+      (node 
+        (ref D92) 
+        (pin 1)) 
+      (node 
+        (ref D91) 
+        (pin 1)) 
+      (node 
+        (ref D95) 
+        (pin 1)) 
+      (node 
+        (ref D93) 
+        (pin 1)) 
+      (node 
+        (ref D94) 
+        (pin 1)) 
+      (node 
+        (ref D118) 
+        (pin 1)) 
+      (node 
+        (ref D79) 
+        (pin 1)) 
+      (node 
+        (ref U1) 
+        (pin 7)) 
+      (node 
+        (ref D80) 
+        (pin 1)) 
+      (node 
+        (ref D102) 
+        (pin 1)) 
+      (node 
+        (ref D81) 
+        (pin 1)) 
+      (node 
+        (ref D83) 
+        (pin 1)) 
+      (node 
+        (ref D89) 
+        (pin 1)) 
+      (node 
+        (ref D88) 
+        (pin 1)) 
+      (node 
+        (ref D82) 
+        (pin 1)) 
+      (node 
+        (ref D111) 
+        (pin 1)) 
+      (node 
+        (ref D85) 
+        (pin 1)) 
+      (node 
+        (ref D90) 
+        (pin 1)) 
+      (node 
+        (ref D86) 
+        (pin 1)) 
+      (node 
+        (ref D87) 
+        (pin 1)) 
+      (node 
+        (ref D84) 
+        (pin 1)) 
+      (node 
+        (ref D78) 
+        (pin 1)) 
+      (node 
+        (ref D114) 
+        (pin 1)) 
+      (node 
+        (ref D103) 
+        (pin 1)) 
+      (node 
+        (ref U1) 
+        (pin 24)) 
+      (node 
+        (ref U1) 
+        (pin 2)) 
+      (node 
+        (ref D100) 
+        (pin 1)) 
+      (node 
+        (ref U1) 
+        (pin 14)) 
+      (node 
+        (ref D117) 
+        (pin 1)) 
+      (node 
+        (ref U1) 
+        (pin 34)) 
+      (node 
+        (ref D113) 
+        (pin 1)) 
+      (node 
+        (ref D110) 
+        (pin 1)) 
+      (node 
+        (ref U1) 
+        (pin 44)) 
+      (node 
+        (ref D77) 
+        (pin 1)) 
+      (node 
+        (ref D71) 
+        (pin 1)) 
+      (node 
+        (ref D97) 
+        (pin 1)) 
+      (node 
+        (ref D112) 
+        (pin 1)) 
+      (node 
+        (ref D70) 
+        (pin 1)) 
+      (node 
+        (ref D115) 
+        (pin 1))) 
+    (net 
+      (code 5) 
+      (name "Net-(D100-Pad2)") 
+      (node 
+        (ref D100) 
+        (pin 2)) 
+      (node 
+        (ref D101) 
+        (pin 4))) 
+    (net 
+      (code 6) 
+      (name "Net-(D100-Pad4)") 
+      (node 
+        (ref D99) 
+        (pin 2)) 
+      (node 
+        (ref D100) 
+        (pin 4))) 
+    (net 
+      (code 7) 
+      (name "Net-(D103-Pad2)") 
+      (node 
+        (ref D103) 
+        (pin 2)) 
+      (node 
+        (ref D115) 
+        (pin 4))) 
+    (net 
+      (code 8) 
+      (name "Net-(D114-Pad4)") 
+      (node 
+        (ref D114) 
+        (pin 4)) 
+      (node 
+        (ref D115) 
+        (pin 2))) 
+    (net 
+      (code 9) 
+      (name "Net-(D96-Pad2)") 
+      (node 
+        (ref D96) 
+        (pin 2)) 
+      (node 
+        (ref D97) 
+        (pin 4))) 
+    (net 
+      (code 10) 
+      (name "Net-(D97-Pad2)") 
+      (node 
+        (ref D97) 
+        (pin 2)) 
+      (node 
+        (ref D98) 
+        (pin 4))) 
+    (net 
+      (code 11) 
+      (name "Net-(D95-Pad2)") 
+      (node 
+        (ref D95) 
+        (pin 2)) 
+      (node 
+        (ref D96) 
+        (pin 4))) 
+    (net 
+      (code 12) 
+      (name "Net-(D98-Pad2)") 
+      (node 
+        (ref D98) 
+        (pin 2)) 
+      (node 
+        (ref D99) 
+        (pin 4))) 
+    (net 
+      (code 13) 
+      (name "Net-(D109-Pad4)") 
+      (node 
+        (ref D109) 
+        (pin 4)) 
+      (node 
+        (ref D110) 
+        (pin 2))) 
+    (net 
+      (code 14) 
+      (name "Net-(D108-Pad4)") 
+      (node 
+        (ref D108) 
+        (pin 4)) 
+      (node 
+        (ref D109) 
+        (pin 2))) 
+    (net 
+      (code 15) 
+      (name "Net-(D107-Pad4)") 
+      (node 
+        (ref D108) 
+        (pin 2)) 
+      (node 
+        (ref D107) 
+        (pin 4))) 
+    (net 
+      (code 16) 
+      (name "Net-(D110-Pad4)") 
+      (node 
+        (ref D110) 
+        (pin 4)) 
+      (node 
+        (ref D111) 
+        (pin 2))) 
+    (net 
+      (code 17) 
+      (name "Net-(D106-Pad4)") 
+      (node 
+        (ref D106) 
+        (pin 4)) 
+      (node 
+        (ref D107) 
+        (pin 2))) 
+    (net 
+      (code 18) 
+      (name "Net-(D105-Pad4)") 
+      (node 
+        (ref D106) 
+        (pin 2)) 
+      (node 
+        (ref D105) 
+        (pin 4))) 
+    (net 
+      (code 19) 
+      (name "Net-(D113-Pad4)") 
+      (node 
+        (ref D113) 
+        (pin 4)) 
+      (node 
+        (ref D114) 
+        (pin 2))) 
+    (net 
+      (code 20) 
+      (name "Net-(D112-Pad4)") 
+      (node 
+        (ref D112) 
+        (pin 4)) 
+      (node 
+        (ref D113) 
+        (pin 2))) 
+    (net 
+      (code 21) 
+      (name "Net-(D111-Pad4)") 
+      (node 
+        (ref D112) 
+        (pin 2)) 
+      (node 
+        (ref D111) 
+        (pin 4))) 
+    (net 
+      (code 22) 
+      (name "Net-(D94-Pad2)") 
+      (node 
+        (ref D94) 
+        (pin 2)) 
+      (node 
+        (ref D95) 
+        (pin 4))) 
+    (net 
+      (code 23) 
+      (name "Net-(D112-Pad3)") 
+      (node 
+        (ref D112) 
+        (pin 3))) 
+    (net 
+      (code 24) 
+      (name "Net-(D84-Pad4)") 
+      (node 
+        (ref D84) 
+        (pin 4)) 
+      (node 
+        (ref D85) 
+        (pin 2))) 
+    (net 
+      (code 25) 
+      (name "Net-(D83-Pad4)") 
+      (node 
+        (ref D83) 
+        (pin 4)) 
+      (node 
+        (ref D84) 
+        (pin 2))) 
+    (net 
+      (code 26) 
+      (name "Net-(D85-Pad4)") 
+      (node 
+        (ref D86) 
+        (pin 2)) 
+      (node 
+        (ref D85) 
+        (pin 4))) 
+    (net 
+      (code 27) 
+      (name "Net-(D82-Pad4)") 
+      (node 
+        (ref D82) 
+        (pin 4)) 
+      (node 
+        (ref D83) 
+        (pin 2))) 
+    (net 
+      (code 28) 
+      (name "Net-(D81-Pad4)") 
+      (node 
+        (ref D82) 
+        (pin 2)) 
+      (node 
+        (ref D81) 
+        (pin 4))) 
+    (net 
+      (code 29) 
+      (name "Net-(D87-Pad4)") 
+      (node 
+        (ref D87) 
+        (pin 4)) 
+      (node 
+        (ref D88) 
+        (pin 2))) 
+    (net 
+      (code 30) 
+      (name "Net-(D89-Pad4)") 
+      (node 
+        (ref D90) 
+        (pin 2)) 
+      (node 
+        (ref D89) 
+        (pin 4))) 
+    (net 
+      (code 31) 
+      (name "Net-(D88-Pad4)") 
+      (node 
+        (ref D88) 
+        (pin 4)) 
+      (node 
+        (ref D89) 
+        (pin 2))) 
+    (net 
+      (code 32) 
+      (name "Net-(D75-Pad2)") 
+      (node 
+        (ref D75) 
+        (pin 2)) 
+      (node 
+        (ref D90) 
+        (pin 4))) 
+    (net 
+      (code 33) 
+      (name "Net-(D86-Pad4)") 
+      (node 
+        (ref D87) 
+        (pin 2)) 
+      (node 
+        (ref D86) 
+        (pin 4))) 
+    (net 
+      (code 34) 
+      (name "Net-(D80-Pad4)") 
+      (node 
+        (ref D80) 
+        (pin 4)) 
+      (node 
+        (ref D81) 
+        (pin 2))) 
+    (net 
+      (code 35) 
+      (name "Net-(D91-Pad2)") 
+      (node 
+        (ref D92) 
+        (pin 4)) 
+      (node 
+        (ref D91) 
+        (pin 2))) 
+    (net 
+      (code 36) 
+      (name "Net-(D92-Pad2)") 
+      (node 
+        (ref D92) 
+        (pin 2)) 
+      (node 
+        (ref D93) 
+        (pin 4))) 
+    (net 
+      (code 37) 
+      (name "Net-(D93-Pad2)") 
+      (node 
+        (ref D93) 
+        (pin 2)) 
+      (node 
+        (ref D94) 
+        (pin 4))) 
+    (net 
+      (code 38) 
+      (name "Net-(D77-Pad2)") 
+      (node 
+        (ref D77) 
+        (pin 2)) 
+      (node 
+        (ref D91) 
+        (pin 4))) 
+    (net 
+      (code 39) 
+      (name "Net-(D79-Pad4)") 
+      (node 
+        (ref D80) 
+        (pin 2)) 
+      (node 
+        (ref D79) 
+        (pin 4))) 
+    (net 
+      (code 40) 
+      (name "Net-(D78-Pad4)") 
+      (node 
+        (ref D79) 
+        (pin 2)) 
+      (node 
+        (ref D78) 
+        (pin 4))) 
+    (net 
+      (code 41) 
+      (name "Net-(D77-Pad4)") 
+      (node 
+        (ref D78) 
+        (pin 2)) 
+      (node 
+        (ref D77) 
+        (pin 4))) 
+    (net 
+      (code 42) 
+      (name R0) 
+      (node 
+        (ref D12) 
+        (pin 1)) 
+      (node 
+        (ref D16) 
+        (pin 1)) 
+      (node 
+        (ref D20) 
+        (pin 1)) 
+      (node 
+        (ref D24) 
+        (pin 1)) 
+      (node 
+        (ref D4) 
+        (pin 1)) 
+      (node 
+        (ref D45) 
+        (pin 1)) 
+      (node 
+        (ref D58) 
+        (pin 1)) 
+      (node 
+        (ref D54) 
+        (pin 1)) 
+      (node 
+        (ref D50) 
+        (pin 1)) 
+      (node 
+        (ref D41) 
+        (pin 1)) 
+      (node 
+        (ref D37) 
+        (pin 1)) 
+      (node 
+        (ref D33) 
+        (pin 1)) 
+      (node 
+        (ref D28) 
+        (pin 1)) 
+      (node 
+        (ref U1) 
+        (pin 22)) 
+      (node 
+        (ref D1) 
+        (pin 1))) 
+    (net 
+      (code 43) 
+      (name "Net-(D38-Pad2)") 
+      (node 
+        (ref D38) 
+        (pin 2)) 
+      (node 
+        (ref K42) 
+        (pin 1))) 
+    (net 
+      (code 44) 
+      (name "Net-(D34-Pad2)") 
+      (node 
+        (ref K38) 
+        (pin 1)) 
+      (node 
+        (ref D34) 
+        (pin 2))) 
+    (net 
+      (code 45) 
+      (name "Net-(D1-Pad2)") 
+      (node 
+        (ref D1) 
+        (pin 2)) 
+      (node 
+        (ref K1) 
+        (pin 2))) 
+    (net 
+      (code 46) 
+      (name "Net-(D13-Pad2)") 
+      (node 
+        (ref K14) 
+        (pin 1)) 
+      (node 
+        (ref D13) 
+        (pin 2))) 
+    (net 
+      (code 47) 
+      (name "Net-(D42-Pad2)") 
+      (node 
+        (ref D42) 
+        (pin 2)) 
+      (node 
+        (ref K46) 
+        (pin 1))) 
+    (net 
+      (code 48) 
+      (name R4) 
+      (node 
+        (ref U1) 
+        (pin 41)) 
+      (node 
+        (ref D56) 
+        (pin 1)) 
+      (node 
+        (ref D60) 
+        (pin 1)) 
+      (node 
+        (ref D7) 
+        (pin 1)) 
+      (node 
+        (ref D2) 
+        (pin 1)) 
+      (node 
+        (ref D11) 
+        (pin 1)) 
+      (node 
+        (ref D51) 
+        (pin 1)) 
+      (node 
+        (ref D29) 
+        (pin 1)) 
+      (node 
+        (ref D46) 
+        (pin 1))) 
+    (net 
+      (code 49) 
+      (name "Net-(D19-Pad2)") 
+      (node 
+        (ref D19) 
+        (pin 2)) 
+      (node 
+        (ref K22) 
+        (pin 2))) 
+    (net 
+      (code 50) 
+      (name R3) 
+      (node 
+        (ref D6) 
+        (pin 1)) 
+      (node 
+        (ref D49) 
+        (pin 1)) 
+      (node 
+        (ref D44) 
+        (pin 1)) 
+      (node 
+        (ref D40) 
+        (pin 1)) 
+      (node 
+        (ref D10) 
+        (pin 1)) 
+      (node 
+        (ref D23) 
+        (pin 1)) 
+      (node 
+        (ref D15) 
+        (pin 1)) 
+      (node 
+        (ref U1) 
+        (pin 19)) 
+      (node 
+        (ref D36) 
+        (pin 1)) 
+      (node 
+        (ref D27) 
+        (pin 1)) 
+      (node 
+        (ref D61) 
+        (pin 1)) 
+      (node 
+        (ref D19) 
+        (pin 1)) 
+      (node 
+        (ref D32) 
+        (pin 1))) 
+    (net 
+      (code 51) 
+      (name R1) 
+      (node 
+        (ref D59) 
+        (pin 1)) 
+      (node 
+        (ref D25) 
+        (pin 1)) 
+      (node 
+        (ref D13) 
+        (pin 1)) 
+      (node 
+        (ref D55) 
+        (pin 1)) 
+      (node 
+        (ref D52) 
+        (pin 1)) 
+      (node 
+        (ref D21) 
+        (pin 1)) 
+      (node 
+        (ref D30) 
+        (pin 1)) 
+      (node 
+        (ref D34) 
+        (pin 1)) 
+      (node 
+        (ref D38) 
+        (pin 1)) 
+      (node 
+        (ref D42) 
+        (pin 1)) 
+      (node 
+        (ref U1) 
+        (pin 21)) 
+      (node 
+        (ref D47) 
+        (pin 1)) 
+      (node 
+        (ref D5) 
+        (pin 1)) 
+      (node 
+        (ref D8) 
+        (pin 1)) 
+      (node 
+        (ref D17) 
+        (pin 1))) 
+    (net 
+      (code 52) 
+      (name R2) 
+      (node 
+        (ref D18) 
+        (pin 1)) 
+      (node 
+        (ref D57) 
+        (pin 1)) 
+      (node 
+        (ref D22) 
+        (pin 1)) 
+      (node 
+        (ref D14) 
+        (pin 1)) 
+      (node 
+        (ref D26) 
+        (pin 1)) 
+      (node 
+        (ref D9) 
+        (pin 1)) 
+      (node 
+        (ref D3) 
+        (pin 1)) 
+      (node 
+        (ref D53) 
+        (pin 1)) 
+      (node 
+        (ref D31) 
+        (pin 1)) 
+      (node 
+        (ref U1) 
+        (pin 20)) 
+      (node 
+        (ref D48) 
+        (pin 1)) 
+      (node 
+        (ref D43) 
+        (pin 1)) 
+      (node 
+        (ref D39) 
+        (pin 1)) 
+      (node 
+        (ref D35) 
+        (pin 1))) 
+    (net 
+      (code 53) 
+      (name "Net-(D119-Pad2)") 
+      (node 
+        (ref D120) 
+        (pin 4)) 
+      (node 
+        (ref D119) 
+        (pin 2))) 
+    (net 
+      (code 54) 
+      (name "Net-(D120-Pad2)") 
+      (node 
+        (ref D121) 
+        (pin 4)) 
+      (node 
+        (ref D120) 
+        (pin 2))) 
+    (net 
+      (code 55) 
+      (name "Net-(D118-Pad2)") 
+      (node 
+        (ref D119) 
+        (pin 4)) 
+      (node 
+        (ref D118) 
+        (pin 2))) 
+    (net 
+      (code 56) 
+      (name "Net-(D121-Pad2)") 
+      (node 
+        (ref D121) 
+        (pin 2)) 
+      (node 
+        (ref D122) 
+        (pin 4))) 
+    (net 
+      (code 57) 
+      (name "Net-(D122-Pad2)") 
+      (node 
+        (ref D123) 
+        (pin 4)) 
+      (node 
+        (ref D122) 
+        (pin 2))) 
+    (net 
+      (code 58) 
+      (name "Net-(D116-Pad2)") 
+      (node 
+        (ref D116) 
+        (pin 2)) 
+      (node 
+        (ref D117) 
+        (pin 4))) 
+    (net 
+      (code 59) 
+      (name "Net-(D104-Pad4)") 
+      (node 
+        (ref D104) 
+        (pin 4)) 
+      (node 
+        (ref D105) 
+        (pin 2))) 
+    (net 
+      (code 60) 
+      (name "Net-(D117-Pad2)") 
+      (node 
+        (ref D118) 
+        (pin 4)) 
+      (node 
+        (ref D117) 
+        (pin 2))) 
+    (net 
+      (code 61) 
+      (name "Net-(D123-Pad2)") 
+      (node 
+        (ref D123) 
+        (pin 2))) 
+    (net 
+      (code 62) 
+      (name "Net-(D104-Pad2)") 
+      (node 
+        (ref D116) 
+        (pin 4)) 
+      (node 
+        (ref D104) 
+        (pin 2))) 
+    (net 
+      (code 63) 
+      (name "Net-(D17-Pad2)") 
+      (node 
+        (ref D17) 
+        (pin 2)) 
+      (node 
+        (ref K20) 
+        (pin 1))) 
+    (net 
+      (code 64) 
+      (name "Net-(D47-Pad2)") 
+      (node 
+        (ref K51) 
+        (pin 1)) 
+      (node 
+        (ref D47) 
+        (pin 2))) 
+    (net 
+      (code 65) 
+      (name "Net-(D30-Pad2)") 
+      (node 
+        (ref K33) 
+        (pin 1)) 
+      (node 
+        (ref D30) 
+        (pin 2))) 
+    (net 
+      (code 66) 
+      (name "Net-(D25-Pad2)") 
+      (node 
+        (ref D25) 
+        (pin 2)) 
+      (node 
+        (ref K28) 
+        (pin 1))) 
+    (net 
+      (code 67) 
+      (name "Net-(D21-Pad2)") 
+      (node 
+        (ref D21) 
+        (pin 2)) 
+      (node 
+        (ref K24) 
+        (pin 1))) 
+    (net 
+      (code 68) 
+      (name "Net-(D52-Pad2)") 
+      (node 
+        (ref D52) 
+        (pin 2)) 
+      (node 
+        (ref K57) 
+        (pin 1))) 
+    (net 
+      (code 69) 
+      (name "Net-(D8-Pad2)") 
+      (node 
+        (ref K9) 
+        (pin 1)) 
+      (node 
+        (ref D8) 
+        (pin 2))) 
+    (net 
+      (code 70) 
+      (name "Net-(D5-Pad2)") 
+      (node 
+        (ref K4) 
+        (pin 1)) 
+      (node 
+        (ref D5) 
+        (pin 2))) 
+    (net 
+      (code 71) 
+      (name "Net-(D58-Pad2)") 
+      (node 
+        (ref K69) 
+        (pin 1)) 
+      (node 
+        (ref D58) 
+        (pin 2))) 
+    (net 
+      (code 72) 
+      (name "Net-(D26-Pad2)") 
+      (node 
+        (ref K29) 
+        (pin 1)) 
+      (node 
+        (ref D26) 
+        (pin 2))) 
+    (net 
+      (code 73) 
+      (name "Net-(D22-Pad2)") 
+      (node 
+        (ref K25) 
+        (pin 1)) 
+      (node 
+        (ref D22) 
+        (pin 2))) 
+    (net 
+      (code 74) 
+      (name "Net-(D18-Pad2)") 
+      (node 
+        (ref D18) 
+        (pin 2)) 
+      (node 
+        (ref K21) 
+        (pin 1))) 
+    (net 
+      (code 75) 
+      (name "Net-(D14-Pad2)") 
+      (node 
+        (ref D14) 
+        (pin 2)) 
+      (node 
+        (ref K15) 
+        (pin 1))) 
+    (net 
+      (code 76) 
+      (name C12) 
+      (node 
+        (ref K59) 
+        (pin 2)) 
+      (node 
+        (ref U1) 
+        (pin 36)) 
+      (node 
+        (ref K62) 
+        (pin 2)) 
+      (node 
+        (ref K63) 
+        (pin 2))) 
+    (net 
+      (code 77) 
+      (name "Net-(D9-Pad2)") 
+      (node 
+        (ref K10) 
+        (pin 1)) 
+      (node 
+        (ref D9) 
+        (pin 2))) 
+    (net 
+      (code 78) 
+      (name "Net-(D3-Pad2)") 
+      (node 
+        (ref K5) 
+        (pin 1)) 
+      (node 
+        (ref D3) 
+        (pin 2))) 
+    (net 
+      (code 79) 
+      (name "Net-(D59-Pad2)") 
+      (node 
+        (ref D59) 
+        (pin 2)) 
+      (node 
+        (ref K66) 
+        (pin 1))) 
+    (net 
+      (code 80) 
+      (name "Net-(D55-Pad2)") 
+      (node 
+        (ref K62) 
+        (pin 1)) 
+      (node 
+        (ref D55) 
+        (pin 2))) 
+    (net 
+      (code 81) 
+      (name "Net-(U1-Pad42)") 
+      (node 
+        (ref U1) 
+        (pin 42))) 
+    (net 
+      (code 82) 
+      (name "Net-(D16-Pad2)") 
+      (node 
+        (ref K18) 
+        (pin 1)) 
+      (node 
+        (ref D16) 
+        (pin 2))) 
+    (net 
+      (code 83) 
+      (name "Net-(D12-Pad2)") 
+      (node 
+        (ref D12) 
+        (pin 2)) 
+      (node 
+        (ref K13) 
+        (pin 1))) 
+    (net 
+      (code 84) 
+      (name "Net-(D4-Pad2)") 
+      (node 
+        (ref D4) 
+        (pin 2)) 
+      (node 
+        (ref K7) 
+        (pin 2))) 
+    (net 
+      (code 85) 
+      (name "Net-(USB1-Pad9)") 
+      (node 
+        (ref USB1) 
+        (pin 9))) 
+    (net 
+      (code 86) 
+      (name "Net-(USB1-Pad3)") 
+      (node 
+        (ref USB1) 
+        (pin 3))) 
+    (net 
+      (code 87) 
+      (name "Net-(D37-Pad2)") 
+      (node 
+        (ref D37) 
+        (pin 2)) 
+      (node 
+        (ref K41) 
+        (pin 1))) 
+    (net 
+      (code 88) 
+      (name "Net-(D54-Pad2)") 
+      (node 
+        (ref K59) 
+        (pin 1)) 
+      (node 
+        (ref D54) 
+        (pin 2))) 
+    (net 
+      (code 89) 
+      (name "Net-(D50-Pad2)") 
+      (node 
+        (ref K54) 
+        (pin 1)) 
+      (node 
+        (ref D50) 
+        (pin 2))) 
+    (net 
+      (code 90) 
+      (name "Net-(D45-Pad2)") 
+      (node 
+        (ref K49) 
+        (pin 1)) 
+      (node 
+        (ref D45) 
+        (pin 2))) 
+    (net 
+      (code 91) 
+      (name C9) 
+      (node 
+        (ref K46) 
+        (pin 2)) 
+      (node 
+        (ref K32) 
+        (pin 2)) 
+      (node 
+        (ref K48) 
+        (pin 2)) 
+      (node 
+        (ref U1) 
+        (pin 31)) 
+      (node 
+        (ref K47) 
+        (pin 2)) 
+      (node 
+        (ref K45) 
+        (pin 2))) 
+    (net 
+      (code 92) 
+      (name "Net-(D41-Pad2)") 
+      (node 
+        (ref K45) 
+        (pin 1)) 
+      (node 
+        (ref D41) 
+        (pin 2))) 
+    (net 
+      (code 93) 
+      (name C8) 
+      (node 
+        (ref K42) 
+        (pin 2)) 
+      (node 
+        (ref K41) 
+        (pin 2)) 
+      (node 
+        (ref U1) 
+        (pin 30)) 
+      (node 
+        (ref K44) 
+        (pin 1)) 
+      (node 
+        (ref K43) 
+        (pin 2))) 
+    (net 
+      (code 94) 
+      (name "Net-(D31-Pad2)") 
+      (node 
+        (ref D31) 
+        (pin 2)) 
+      (node 
+        (ref K34) 
+        (pin 1))) 
+    (net 
+      (code 95) 
+      (name "Net-(D33-Pad2)") 
+      (node 
+        (ref D33) 
+        (pin 2)) 
+      (node 
+        (ref K36) 
+        (pin 1))) 
+    (net 
+      (code 96) 
+      (name "Net-(D28-Pad2)") 
+      (node 
+        (ref D28) 
+        (pin 2)) 
+      (node 
+        (ref K31) 
+        (pin 1))) 
+    (net 
+      (code 97) 
+      (name "Net-(D24-Pad2)") 
+      (node 
+        (ref K27) 
+        (pin 1)) 
+      (node 
+        (ref D24) 
+        (pin 2))) 
+    (net 
+      (code 98) 
+      (name "Net-(D20-Pad2)") 
+      (node 
+        (ref D20) 
+        (pin 2)) 
+      (node 
+        (ref K23) 
+        (pin 1))) 
+    (net 
+      (code 99) 
+      (name "Net-(D7-Pad2)") 
+      (node 
+        (ref D7) 
+        (pin 2)) 
+      (node 
+        (ref K8) 
+        (pin 1))) 
+    (net 
+      (code 100) 
+      (name XTAL2) 
+      (node 
+        (ref X1) 
+        (pin 2)) 
+      (node 
+        (ref U1) 
+        (pin 16)) 
+      (node 
+        (ref C4) 
+        (pin 2))) 
+    (net 
+      (code 101) 
+      (name XTAL1) 
+      (node 
+        (ref U1) 
+        (pin 17)) 
+      (node 
+        (ref X1) 
+        (pin 1)) 
+      (node 
+        (ref C3) 
+        (pin 2))) 
+    (net 
+      (code 102) 
+      (name "Net-(D29-Pad2)") 
+      (node 
+        (ref K32) 
+        (pin 1)) 
+      (node 
+        (ref D29) 
+        (pin 2))) 
+    (net 
+      (code 103) 
+      (name "Net-(D11-Pad2)") 
+      (node 
+        (ref K16) 
+        (pin 1)) 
+      (node 
+        (ref D11) 
+        (pin 2))) 
+    (net 
+      (code 104) 
+      (name "Net-(D60-Pad2)") 
+      (node 
+        (ref K68) 
+        (pin 1)) 
+      (node 
+        (ref D60) 
+        (pin 2))) 
+    (net 
+      (code 105) 
+      (name "Net-(D56-Pad2)") 
+      (node 
+        (ref K63) 
+        (pin 1)) 
+      (node 
+        (ref D56) 
+        (pin 2))) 
+    (net 
+      (code 106) 
+      (name "Net-(D51-Pad2)") 
+      (node 
+        (ref D51) 
+        (pin 2)) 
+      (node 
+        (ref K56) 
+        (pin 1))) 
+    (net 
+      (code 107) 
+      (name "Net-(D46-Pad2)") 
+      (node 
+        (ref D46) 
+        (pin 2)) 
+      (node 
+        (ref K50) 
+        (pin 1))) 
+    (net 
+      (code 108) 
+      (name C10) 
+      (node 
+        (ref K53) 
+        (pin 2)) 
+      (node 
+        (ref K52) 
+        (pin 2)) 
+      (node 
+        (ref K49) 
+        (pin 2)) 
+      (node 
+        (ref K50) 
+        (pin 2)) 
+      (node 
+        (ref K51) 
+        (pin 2)) 
+      (node 
+        (ref U1) 
+        (pin 32))) 
+    (net 
+      (code 109) 
+      (name "Net-(D15-Pad2)") 
+      (node 
+        (ref K17) 
+        (pin 1)) 
+      (node 
+        (ref D15) 
+        (pin 2))) 
+    (net 
+      (code 110) 
+      (name "Net-(D10-Pad2)") 
+      (node 
+        (ref D10) 
+        (pin 2)) 
+      (node 
+        (ref K12) 
+        (pin 1))) 
+    (net 
+      (code 111) 
+      (name "Net-(D57-Pad2)") 
+      (node 
+        (ref D57) 
+        (pin 2)) 
+      (node 
+        (ref K65) 
+        (pin 1))) 
+    (net 
+      (code 112) 
+      (name "Net-(D53-Pad2)") 
+      (node 
+        (ref D53) 
+        (pin 2)) 
+      (node 
+        (ref K58) 
+        (pin 1))) 
+    (net 
+      (code 113) 
+      (name "Net-(D48-Pad2)") 
+      (node 
+        (ref D48) 
+        (pin 2)) 
+      (node 
+        (ref K52) 
+        (pin 1))) 
+    (net 
+      (code 114) 
+      (name "Net-(D43-Pad2)") 
+      (node 
+        (ref D43) 
+        (pin 2)) 
+      (node 
+        (ref K47) 
+        (pin 1))) 
+    (net 
+      (code 115) 
+      (name "Net-(D39-Pad2)") 
+      (node 
+        (ref D39) 
+        (pin 2)) 
+      (node 
+        (ref K43) 
+        (pin 1))) 
+    (net 
+      (code 116) 
+      (name "Net-(D35-Pad2)") 
+      (node 
+        (ref K39) 
+        (pin 1)) 
+      (node 
+        (ref D35) 
+        (pin 2))) 
+    (net 
+      (code 117) 
+      (name "Net-(D2-Pad2)") 
+      (node 
+        (ref D2) 
+        (pin 2)) 
+      (node 
+        (ref K2) 
+        (pin 1))) 
+    (net 
+      (code 118) 
+      (name "Net-(D6-Pad2)") 
+      (node 
+        (ref D6) 
+        (pin 2)) 
+      (node 
+        (ref K6) 
+        (pin 1))) 
+    (net 
+      (code 119) 
+      (name "Net-(D49-Pad2)") 
+      (node 
+        (ref D49) 
+        (pin 2)) 
+      (node 
+        (ref K53) 
+        (pin 1))) 
+    (net 
+      (code 120) 
+      (name "Net-(D44-Pad2)") 
+      (node 
+        (ref K48) 
+        (pin 1)) 
+      (node 
+        (ref D44) 
+        (pin 2))) 
+    (net 
+      (code 121) 
+      (name "Net-(D40-Pad2)") 
+      (node 
+        (ref D40) 
+        (pin 2)) 
+      (node 
+        (ref K44) 
+        (pin 2))) 
+    (net 
+      (code 122) 
+      (name C7) 
+      (node 
+        (ref K39) 
+        (pin 2)) 
+      (node 
+        (ref U1) 
+        (pin 29)) 
+      (node 
+        (ref K36) 
+        (pin 2)) 
+      (node 
+        (ref K38) 
+        (pin 2)) 
+      (node 
+        (ref K40) 
+        (pin 2))) 
+    (net 
+      (code 123) 
+      (name "Net-(D36-Pad2)") 
+      (node 
+        (ref K40) 
+        (pin 1)) 
+      (node 
+        (ref D36) 
+        (pin 2))) 
+    (net 
+      (code 124) 
+      (name "Net-(D32-Pad2)") 
+      (node 
+        (ref D32) 
+        (pin 2)) 
+      (node 
+        (ref K35) 
+        (pin 1))) 
+    (net 
+      (code 125) 
+      (name "Net-(D27-Pad2)") 
+      (node 
+        (ref D27) 
+        (pin 2)) 
+      (node 
+        (ref K30) 
+        (pin 1))) 
+    (net 
+      (code 126) 
+      (name "Net-(D23-Pad2)") 
+      (node 
+        (ref K26) 
+        (pin 1)) 
+      (node 
+        (ref D23) 
+        (pin 2))) 
+    (net 
+      (code 127) 
+      (name UCAP) 
+      (node 
+        (ref C1) 
+        (pin 2)) 
+      (node 
+        (ref U1) 
+        (pin 6))) 
+    (net 
+      (code 128) 
+      (name CC1) 
+      (node 
+        (ref USB1) 
+        (pin 4)) 
+      (node 
+        (ref R4) 
+        (pin 2))) 
+    (net 
+      (code 129) 
+      (name CC2) 
+      (node 
+        (ref USB1) 
+        (pin 10)) 
+      (node 
+        (ref R5) 
+        (pin 2))) 
+    (net 
+      (code 130) 
+      (name DN) 
+      (node 
+        (ref USB1) 
+        (pin 7)) 
+      (node 
+        (ref R2) 
+        (pin 1)) 
+      (node 
+        (ref USB1) 
+        (pin 5)) 
+      (node 
+        (ref U2) 
+        (pin 3))) 
+    (net 
+      (code 131) 
+      (name DP) 
+      (node 
+        (ref U2) 
+        (pin 2)) 
+      (node 
+        (ref USB1) 
+        (pin 6)) 
+      (node 
+        (ref USB1) 
+        (pin 8)) 
+      (node 
+        (ref R1) 
+        (pin 1))) 
+    (net 
+      (code 132) 
+      (name C11) 
+      (node 
+        (ref K57) 
+        (pin 2)) 
+      (node 
+        (ref K54) 
+        (pin 2)) 
+      (node 
+        (ref K56) 
+        (pin 2)) 
+      (node 
+        (ref K58) 
+        (pin 2)) 
+      (node 
+        (ref U1) 
+        (pin 26))) 
+    (net 
+      (code 133) 
+      (name "Net-(U1-Pad27)") 
+      (node 
+        (ref U1) 
+        (pin 27))) 
+    (net 
+      (code 134) 
+      (name C5) 
+      (node 
+        (ref K28) 
+        (pin 2)) 
+      (node 
+        (ref K30) 
+        (pin 2)) 
+      (node 
+        (ref K27) 
+        (pin 2)) 
+      (node 
+        (ref U1) 
+        (pin 12)) 
+      (node 
+        (ref K29) 
+        (pin 2))) 
+    (net 
+      (code 135) 
+      (name C4) 
+      (node 
+        (ref K25) 
+        (pin 2)) 
+      (node 
+        (ref K24) 
+        (pin 2)) 
+      (node 
+        (ref U1) 
+        (pin 11)) 
+      (node 
+        (ref K23) 
+        (pin 2)) 
+      (node 
+        (ref K26) 
+        (pin 2))) 
+    (net 
+      (code 136) 
+      (name "Net-(U1-Pad40)") 
+      (node 
+        (ref U1) 
+        (pin 40))) 
+    (net 
+      (code 137) 
+      (name "Net-(U1-Pad39)") 
+      (node 
+        (ref U1) 
+        (pin 39))) 
+    (net 
+      (code 138) 
+      (name "Net-(U1-Pad38)") 
+      (node 
+        (ref U1) 
+        (pin 38))) 
+    (net 
+      (code 139) 
+      (name C13) 
+      (node 
+        (ref K69) 
+        (pin 2)) 
+      (node 
+        (ref K72) 
+        (pin 2)) 
+      (node 
+        (ref K66) 
+        (pin 2)) 
+      (node 
+        (ref K65) 
+        (pin 2)) 
+      (node 
+        (ref K68) 
+        (pin 2)) 
+      (node 
+        (ref U1) 
+        (pin 37))) 
+    (net 
+      (code 140) 
+      (name D-) 
+      (node 
+        (ref U1) 
+        (pin 3)) 
+      (node 
+        (ref R2) 
+        (pin 2))) 
+    (net 
+      (code 141) 
+      (name VCC) 
+      (node 
+        (ref USB1) 
+        (pin 2)) 
+      (node 
+        (ref F1) 
+        (pin 2)) 
+      (node 
+        (ref U2) 
+        (pin 4)) 
+      (node 
+        (ref USB1) 
+        (pin 11))) 
+    (net 
+      (code 142) 
+      (name HWB) 
+      (node 
+        (ref R3) 
+        (pin 2)) 
+      (node 
+        (ref U1) 
+        (pin 33))) 
+    (net 
+      (code 143) 
+      (name D+) 
+      (node 
+        (ref U1) 
+        (pin 4)) 
+      (node 
+        (ref R1) 
+        (pin 2))) 
+    (net 
+      (code 144) 
+      (name RESET) 
+      (node 
+        (ref SW1) 
+        (pin 1)) 
+      (node 
+        (ref R6) 
+        (pin 2)) 
+      (node 
+        (ref U1) 
+        (pin 13))) 
+    (net 
+      (code 145) 
+      (name "Net-(D63-Pad2)") 
+      (node 
+        (ref D63) 
+        (pin 2)) 
+      (node 
+        (ref D64) 
+        (pin 4))) 
+    (net 
+      (code 146) 
+      (name "Net-(D64-Pad2)") 
+      (node 
+        (ref D64) 
+        (pin 2)) 
+      (node 
+        (ref D65) 
+        (pin 4))) 
+    (net 
+      (code 147) 
+      (name "Net-(D62-Pad2)") 
+      (node 
+        (ref D63) 
+        (pin 4)) 
+      (node 
+        (ref D62) 
+        (pin 2))) 
+    (net 
+      (code 148) 
+      (name LED) 
+      (node 
+        (ref U1) 
+        (pin 25)) 
+      (node 
+        (ref D62) 
+        (pin 4))) 
+    (net 
+      (code 149) 
+      (name "Net-(D65-Pad2)") 
+      (node 
+        (ref D66) 
+        (pin 4)) 
+      (node 
+        (ref D65) 
+        (pin 2))) 
+    (net 
+      (code 150) 
+      (name "Net-(D66-Pad2)") 
+      (node 
+        (ref D66) 
+        (pin 2)) 
+      (node 
+        (ref D67) 
+        (pin 4))) 
+    (net 
+      (code 151) 
+      (name C2) 
+      (node 
+        (ref K13) 
+        (pin 2)) 
+      (node 
+        (ref K15) 
+        (pin 2)) 
+      (node 
+        (ref K16) 
+        (pin 2)) 
+      (node 
+        (ref K17) 
+        (pin 2)) 
+      (node 
+        (ref U1) 
+        (pin 9)) 
+      (node 
+        (ref K14) 
+        (pin 2))) 
+    (net 
+      (code 152) 
+      (name C6) 
+      (node 
+        (ref K31) 
+        (pin 2)) 
+      (node 
+        (ref K34) 
+        (pin 2)) 
+      (node 
+        (ref K33) 
+        (pin 2)) 
+      (node 
+        (ref K35) 
+        (pin 2)) 
+      (node 
+        (ref U1) 
+        (pin 28))) 
+    (net 
+      (code 153) 
+      (name C3) 
+      (node 
+        (ref U1) 
+        (pin 10)) 
+      (node 
+        (ref K18) 
+        (pin 2)) 
+      (node 
+        (ref K22) 
+        (pin 1)) 
+      (node 
+        (ref K21) 
+        (pin 2)) 
+      (node 
+        (ref K20) 
+        (pin 2))) 
+    (net 
+      (code 154) 
+      (name C1) 
+      (node 
+        (ref K8) 
+        (pin 2)) 
+      (node 
+        (ref K7) 
+        (pin 1)) 
+      (node 
+        (ref U1) 
+        (pin 8)) 
+      (node 
+        (ref K12) 
+        (pin 2)) 
+      (node 
+        (ref K9) 
+        (pin 2)) 
+      (node 
+        (ref K10) 
+        (pin 2))) 
+    (net 
+      (code 155) 
+      (name C0) 
+      (node 
+        (ref K5) 
+        (pin 2)) 
+      (node 
+        (ref K1) 
+        (pin 1)) 
+      (node 
+        (ref K4) 
+        (pin 2)) 
+      (node 
+        (ref U1) 
+        (pin 18)) 
+      (node 
+        (ref K2) 
+        (pin 2)) 
+      (node 
+        (ref K6) 
+        (pin 2))) 
+    (net 
+      (code 156) 
+      (name "Net-(D61-Pad2)") 
+      (node 
+        (ref K72) 
+        (pin 1)) 
+      (node 
+        (ref D61) 
+        (pin 2))) 
+    (net 
+      (code 157) 
+      (name "Net-(D71-Pad2)") 
+      (node 
+        (ref D72) 
+        (pin 4)) 
+      (node 
+        (ref D71) 
+        (pin 2))) 
+    (net 
+      (code 158) 
+      (name "Net-(D72-Pad2)") 
+      (node 
+        (ref D72) 
+        (pin 2)) 
+      (node 
+        (ref D73) 
+        (pin 4))) 
+    (net 
+      (code 159) 
+      (name "Net-(D73-Pad2)") 
+      (node 
+        (ref D73) 
+        (pin 2)) 
+      (node 
+        (ref D74) 
+        (pin 4))) 
+    (net 
+      (code 160) 
+      (name "Net-(D70-Pad2)") 
+      (node 
+        (ref D70) 
+        (pin 2)) 
+      (node 
+        (ref D71) 
+        (pin 4))) 
+    (net 
+      (code 161) 
+      (name "Net-(D74-Pad2)") 
+      (node 
+        (ref D74) 
+        (pin 2)) 
+      (node 
+        (ref D75) 
+        (pin 4))) 
+    (net 
+      (code 162) 
+      (name "Net-(D67-Pad2)") 
+      (node 
+        (ref D68) 
+        (pin 4)) 
+      (node 
+        (ref D67) 
+        (pin 2))) 
+    (net 
+      (code 163) 
+      (name "Net-(D68-Pad2)") 
+      (node 
+        (ref D69) 
+        (pin 4)) 
+      (node 
+        (ref D68) 
+        (pin 2))) 
+    (net 
+      (code 164) 
+      (name "Net-(D69-Pad2)") 
+      (node 
+        (ref D70) 
+        (pin 4)) 
+      (node 
+        (ref D69) 
+        (pin 2))) 
+    (net 
+      (code 165) 
+      (name "Net-(U1-Pad1)") 
+      (node 
+        (ref U1) 
+        (pin 1)))))
